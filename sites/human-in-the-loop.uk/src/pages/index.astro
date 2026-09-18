@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import SiteHeader from '../components/SiteHeader.astro'
+import SiteFooter from '../components/SiteFooter.astro'
+import Hero from '../components/Hero.astro'
+import ProblemSolution from '../components/ProblemSolution.astro'
+import UseCases from '../components/UseCases.astro'
+import Waitlist from '../components/Waitlist.astro'
+---
+
+<BaseLayout>
+  <div class="grain" aria-hidden="true"></div>
+  <SiteHeader slot="header" />
+  <Hero />
+  <ProblemSolution />
+  <UseCases />
+  <Waitlist />
+  <SiteFooter slot="footer" />
+</BaseLayout>

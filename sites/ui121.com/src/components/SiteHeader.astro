@@ -1,0 +1,36 @@
+---
+import site from '../../site.config'
+---
+
+<header class="sticky top-0 z-30 border-b border-line/80 bg-paper/90 backdrop-blur-md">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-6 px-6 py-4">
+    <a href="/" class="flex items-center gap-2 font-display text-xl font-bold tracking-tight text-night">
+      <span class="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-cobalt text-sm text-white">121</span>
+      UI121
+    </a>
+    <nav class="hidden items-center gap-7 text-sm font-medium text-soft md:flex" aria-label="Primary">
+      {
+        site.nav.map((item) => (
+          <a class="hover:text-night transition-colors" href={item.href}>
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+    <div class="flex items-center gap-3">
+      {
+        site.secondaryCta && (
+          <a href={site.secondaryCta.href} class="hidden text-sm font-semibold text-soft hover:text-night sm:inline">
+            {site.secondaryCta.label}
+          </a>
+        )
+      }
+      <a
+        href={site.primaryCta.href}
+        class="rounded-full bg-cobalt px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-cobalt/25 hover:bg-blue-700"
+      >
+        {site.primaryCta.label}
+      </a>
+    </div>
+  </div>
+</header>

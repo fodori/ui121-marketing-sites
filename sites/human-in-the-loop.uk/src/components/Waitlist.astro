@@ -1,0 +1,56 @@
+---
+import { LeadForm } from '@ui121-marketing/lead-form'
+import site from '../../site.config'
+---
+
+<section id="waitlist" class="px-6 py-24">
+  <div
+    class="mx-auto max-w-3xl rounded-[2rem] border border-ember/30 bg-gradient-to-br from-ember/15 via-slate/60 to-ink p-8 md:p-12"
+  >
+    <p class="text-xs font-semibold uppercase tracking-[0.25em] text-voltage">Waitlist</p>
+    <h2 class="mt-3 font-display text-4xl font-bold text-mist">Build the safer human layer for AI</h2>
+    <p class="mt-4 text-hush">Tell us what stalls your agents today. We will reach out when early access opens.</p>
+    <div class="lead-form-wrap mt-8">
+      <LeadForm
+        client:visible
+        siteId={site.leadForm.siteId ?? site.domain}
+        collection={site.leadForm.collection}
+        submitLabel="Join waitlist"
+        className="lead-form"
+      />
+    </div>
+  </div>
+</section>
+
+<style>
+  :global(.lead-form) {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  :global(.lead-form label) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    font-size: 0.875rem;
+    color: #e8e6e1;
+  }
+  :global(.lead-form input) {
+    border-radius: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(7, 8, 12, 0.7);
+    padding: 0.75rem 1rem;
+    color: #e8e6e1;
+  }
+  :global(.lead-form button) {
+    margin-top: 0.5rem;
+    border-radius: 9999px;
+    background: #ff5c33;
+    color: #07080c;
+    font-weight: 700;
+    padding: 0.85rem 1.25rem;
+  }
+  :global(.lead-form button:disabled) {
+    opacity: 0.6;
+  }
+</style>

@@ -1,0 +1,26 @@
+---
+import site from '../../site.config'
+---
+
+<header class="relative z-20 border-b border-white/10 backdrop-blur-md bg-ink/70">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-6 px-6 py-4">
+    <a href="/" class="font-display text-lg font-bold tracking-tight text-mist">
+      human<span class="text-ember">·</span>in<span class="text-ember">·</span>the<span class="text-ember">·</span>loop
+    </a>
+    <nav class="hidden items-center gap-6 text-sm text-hush md:flex" aria-label="Primary">
+      {
+        site.nav.map((item) => (
+          <a class="hover:text-mist transition-colors" href={item.href}>
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+    <a
+      href={site.primaryCta.href}
+      class="rounded-full bg-ember px-4 py-2 text-sm font-semibold text-ink shadow-[0_0_40px_rgba(255,92,51,0.35)] hover:brightness-110 transition"
+    >
+      {site.primaryCta.label}
+    </a>
+  </div>
+</header>

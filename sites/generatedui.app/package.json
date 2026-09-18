@@ -1,0 +1,32 @@
+{
+  "name": "@sites/generatedui.app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --port 4324",
+    "build": "astro build",
+    "preview": "astro preview --port 4324",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/react": "^4.2.1",
+    "@astrojs/tailwind": "^6.0.0",
+    "@ui121-marketing/a11y": "0.1.0",
+    "@ui121-marketing/analytics": "0.1.0",
+    "@ui121-marketing/content-schema": "0.1.0",
+    "@ui121-marketing/lead-form": "0.1.0",
+    "@ui121-marketing/seo": "0.1.0",
+    "@ui121-marketing/shared-react": "0.1.0",
+    "astro": "^5.5.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "typescript": "^5.8.2"
+  }
+}

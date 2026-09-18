@@ -1,0 +1,27 @@
+name: Build jsonapp.com
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'sites/jsonapp.com/**'
+      - 'packages/**'
+      - 'package.json'
+      - 'yarn.lock'
+      - '.github/workflows/site-jsonapp-com.yml'
+      - '.github/workflows/reusable-site-build.yml'
+  pull_request:
+    paths:
+      - 'sites/jsonapp.com/**'
+      - 'packages/**'
+      - 'package.json'
+      - 'yarn.lock'
+      - '.github/workflows/site-jsonapp-com.yml'
+      - '.github/workflows/reusable-site-build.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: ./.github/workflows/reusable-site-build.yml
+    with:
+      domain: jsonapp.com

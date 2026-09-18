@@ -1,0 +1,17 @@
+{
+  "name": "@ui121-marketing/lead-form",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.tsx",
+  "exports": {
+    ".": "./src/index.tsx"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "dependencies": {
+    "firebase": "^11.4.0"
+  }
+}

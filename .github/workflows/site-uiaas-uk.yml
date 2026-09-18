@@ -1,0 +1,27 @@
+name: Build uiaas.uk
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'sites/uiaas.uk/**'
+      - 'packages/**'
+      - 'package.json'
+      - 'yarn.lock'
+      - '.github/workflows/site-uiaas-uk.yml'
+      - '.github/workflows/reusable-site-build.yml'
+  pull_request:
+    paths:
+      - 'sites/uiaas.uk/**'
+      - 'packages/**'
+      - 'package.json'
+      - 'yarn.lock'
+      - '.github/workflows/site-uiaas-uk.yml'
+      - '.github/workflows/reusable-site-build.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: ./.github/workflows/reusable-site-build.yml
+    with:
+      domain: uiaas.uk

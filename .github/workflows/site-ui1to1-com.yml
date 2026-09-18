@@ -1,0 +1,27 @@
+name: Build ui1to1.com
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'sites/ui1to1.com/**'
+      - 'packages/**'
+      - 'package.json'
+      - 'yarn.lock'
+      - '.github/workflows/site-ui1to1-com.yml'
+      - '.github/workflows/reusable-site-build.yml'
+  pull_request:
+    paths:
+      - 'sites/ui1to1.com/**'
+      - 'packages/**'
+      - 'package.json'
+      - 'yarn.lock'
+      - '.github/workflows/site-ui1to1-com.yml'
+      - '.github/workflows/reusable-site-build.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: ./.github/workflows/reusable-site-build.yml
+    with:
+      domain: ui1to1.com

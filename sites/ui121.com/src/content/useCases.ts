@@ -1,0 +1,78 @@
+import { parseUseCases } from '@ui121-marketing/content-schema'
+
+export const useCases = parseUseCases([
+  {
+    id: 'agent-approval',
+    title: 'Agent asks a human before the irreversible step',
+    audience: 'AI platform teams',
+    problem:
+      'Agents propose actions that must not run without a person. Chat confirmations are ambiguous and hard to audit.',
+    howWeSolve:
+      'UI121 presents a clear approval surface with context. The decision returns as structured data to the agent or workflow.',
+    whyBetter: 'Purpose-built human gates beat ad-hoc Slack bots and one-off admin screens.',
+    mediaHint: 'product-frame-approval',
+  },
+  {
+    id: 'workflow-user-task',
+    title: 'Workflow engines get a real human UI',
+    audience: 'Automation & BPM',
+    problem: 'Orchestrators can pause for a user task — but you still have to build and maintain the surface.',
+    howWeSolve: 'Delegate the human step to UI121. Design once, send many times, get submits back into the pipeline.',
+    whyBetter: 'Fill the missing UI layer without turning every process into a mini product.',
+    mediaHint: 'product-frame-workflow',
+  },
+  {
+    id: 'field-capture',
+    title: 'Field capture that survives bad signal',
+    audience: 'Operations',
+    problem: 'Technicians work where the network does not. Lost forms mean stalled automation.',
+    howWeSolve: 'Tasks stay completable offline; answers sync when connectivity returns.',
+    whyBetter: 'Built for real field conditions, not demo-day Wi‑Fi.',
+    mediaHint: 'product-frame-field',
+  },
+  {
+    id: 'exception-desk',
+    title: 'Exception desk for automation failures',
+    audience: 'Ops & support',
+    problem: 'When rules fail, someone must choose a path with the right context.',
+    howWeSolve: 'Push an exception surface with the facts that matter. Capture the decision and resume.',
+    whyBetter: 'Structured outcomes instead of ticket ping-pong.',
+    mediaHint: 'product-frame-exception',
+  },
+  {
+    id: 'group-on-call',
+    title: 'On-call group claim',
+    audience: 'SRE',
+    problem: 'Any qualified human can unblock the system; naming one assignee adds latency.',
+    howWeSolve: 'Broadcast a claimable task. First valid completion settles the step.',
+    whyBetter: 'Faster than shared inboxes; quieter than paging everyone into chat.',
+    mediaHint: 'product-frame-claim',
+  },
+  {
+    id: 'evidence-qa',
+    title: 'Evidence-backed inspections',
+    audience: 'Quality',
+    problem: 'Checkboxes are not enough — you need photos, signatures, and clear fields.',
+    howWeSolve: 'Rich but bounded task UIs collect evidence as structured submits.',
+    whyBetter: 'Agent-timed inspections without rebuilding a mobile app per process.',
+    mediaHint: 'product-frame-qa',
+  },
+  {
+    id: 'onboarding',
+    title: 'Progressive onboarding & KYC steps',
+    audience: 'Growth & risk',
+    problem: 'Incomplete chat dumps and PDF packs create rework.',
+    howWeSolve: 'Validated multi-step surfaces; agents request only what is still missing.',
+    whyBetter: 'Auditable structure with AI-native timing.',
+    mediaHint: 'product-frame-kyc',
+  },
+  {
+    id: 'mcp-operators',
+    title: 'AI operators via MCP',
+    audience: 'Builders',
+    problem: 'Agents need a standard way to create and send human work — not scrape a UI.',
+    howWeSolve: 'Connect through MCP (and REST). Validate models, send tasks, continue on structured results.',
+    whyBetter: 'AI-native operations without exposing unbounded generated HTML to end users.',
+    mediaHint: 'product-frame-mcp',
+  },
+])

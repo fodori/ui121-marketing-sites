@@ -1,0 +1,34 @@
+---
+import site from '../../site.config'
+import { buildMetaTags, buildJsonLd } from '@ui121-marketing/seo'
+import { gaInlineConfig, gaScriptSrc } from '@ui121-marketing/analytics'
+import { SKIP_LINK_ID, skipLinkHref, a11yCss } from '@ui121-marketing/a11y'
+import '../styles/global.css'
+
+const title = Astro.props.title ?? site.seo.title
+const meta = buildMetaTags(site.seo, site.canonical)
+const jsonLd = buildJsonLd(site)
+const gaId = site.gaMeasurementId
+---
+<!doctype html>
+<html lang={site.locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href={site.canonical} />
+    <title>{title}</title>
+    {meta.map((tag) => tag.name ? <meta name={tag.name} content={tag.content} /> : <meta property={tag.property} content={tag.content} />)}
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href={`https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap`} rel="stylesheet" />
+    <style set:html={a11yCss} />
+    {gaId && (<><script async src={gaScriptSrc(gaId)} /><script set:html={gaInlineConfig(gaId)} /></>)}
+  </head>
+  <body class="bg-canvas text-ink font-body antialiased">
+    <a class="skip-link" href={skipLinkHref}>Skip to content</a>
+    <slot name="header" />
+    <main id={SKIP_LINK_ID}><slot /></main>
+    <slot name="footer" />
+  </body>
+</html>

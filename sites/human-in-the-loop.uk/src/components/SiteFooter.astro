@@ -1,0 +1,20 @@
+---
+import site from '../../site.config'
+---
+
+<footer class="border-t border-white/10 bg-slate/40">
+  <div
+    class="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-10 text-sm text-hush md:flex-row md:items-center md:justify-between"
+  >
+    <p>© {new Date().getFullYear()} {site.name}. AI-native human–machine interface.</p>
+    <div class="flex gap-4">
+      {
+        site.footerLinks.map((l) => (
+          <a class="hover:text-mist" href={l.href}>
+            {l.label}
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</footer>

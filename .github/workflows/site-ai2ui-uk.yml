@@ -1,0 +1,27 @@
+name: Build ai2ui.uk
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'sites/ai2ui.uk/**'
+      - 'packages/**'
+      - 'package.json'
+      - 'yarn.lock'
+      - '.github/workflows/site-ai2ui-uk.yml'
+      - '.github/workflows/reusable-site-build.yml'
+  pull_request:
+    paths:
+      - 'sites/ai2ui.uk/**'
+      - 'packages/**'
+      - 'package.json'
+      - 'yarn.lock'
+      - '.github/workflows/site-ai2ui-uk.yml'
+      - '.github/workflows/reusable-site-build.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: ./.github/workflows/reusable-site-build.yml
+    with:
+      domain: ai2ui.uk

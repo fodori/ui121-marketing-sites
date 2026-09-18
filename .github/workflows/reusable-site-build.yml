@@ -1,0 +1,28 @@
+name: Reusable site build
+
+on:
+  workflow_call:
+    inputs:
+      domain:
+        required: true
+        type: string
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: yarn
+      - name: Install
+        run: yarn install --frozen-lockfile
+      - name: Build ${{ inputs.domain }}
+        run: yarn site:build ${{ inputs.domain }}
+      - name: Upload dist
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-${{ inputs.domain }}
+          path: sites/${{ inputs.domain }}/dist
+          if-no-files-found: error

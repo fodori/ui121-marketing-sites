@@ -1,0 +1,27 @@
+{
+  "name": "ui121-marketing-sites",
+  "private": true,
+  "license": "UNLICENSED",
+  "workspaces": [
+    "packages/*",
+    "sites/*"
+  ],
+  "scripts": {
+    "site:dev": "node scripts/dev.mjs",
+    "site:build": "node scripts/build.mjs",
+    "site:preview": "node scripts/preview.mjs",
+    "site:check": "node scripts/check.mjs",
+    "test": "vitest run",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "prettier-plugin-astro": "^0.14.1",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8"
+  }
+}

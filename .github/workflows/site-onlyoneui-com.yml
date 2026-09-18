@@ -1,0 +1,27 @@
+name: Build onlyoneui.com
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'sites/onlyoneui.com/**'
+      - 'packages/**'
+      - 'package.json'
+      - 'yarn.lock'
+      - '.github/workflows/site-onlyoneui-com.yml'
+      - '.github/workflows/reusable-site-build.yml'
+  pull_request:
+    paths:
+      - 'sites/onlyoneui.com/**'
+      - 'packages/**'
+      - 'package.json'
+      - 'yarn.lock'
+      - '.github/workflows/site-onlyoneui-com.yml'
+      - '.github/workflows/reusable-site-build.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: ./.github/workflows/reusable-site-build.yml
+    with:
+      domain: onlyoneui.com

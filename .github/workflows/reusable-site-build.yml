@@ -18,6 +18,14 @@ jobs:
           cache: yarn
       - name: Install
         run: yarn install --frozen-lockfile
+      - name: Format check
+        run: yarn format:check
+      - name: Lint
+        run: yarn lint
+      - name: Type-check packages + site
+        run: yarn type-check ${{ inputs.domain }}
+      - name: Test
+        run: yarn test
       - name: Build ${{ inputs.domain }}
         run: yarn site:build ${{ inputs.domain }}
       - name: Upload dist

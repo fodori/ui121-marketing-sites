@@ -47,7 +47,14 @@ yarn install
 yarn site:dev human-in-the-loop.uk
 yarn site:build ui121.com
 yarn site:check human-in-the-loop.uk
+yarn lint
+yarn type-check          # all packages + all sites
+yarn type-check ui121.com
+yarn format:check
+yarn pre-push            # format:check && lint && type-check && test
 ```
+
+Husky: `pre-commit` → lint-staged; `pre-push` → `yarn pre-push`.
 
 ## Independent release
 

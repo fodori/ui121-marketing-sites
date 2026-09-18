@@ -1,0 +1,11 @@
+# Prettier after every edit
+
+After changing any file in this repo, **always** run Prettier on the touched paths before finishing:
+
+```bash
+yarn prettier --write <touched-files>
+# or whole repo:
+yarn format
+```
+
+Treat format fixes as part of the same change.

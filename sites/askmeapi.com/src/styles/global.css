@@ -2,5 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-html { scroll-behavior: smooth; }
-body { min-height: 100vh; background: #050806; color: #ecfdf5; }
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  background: #050806;
+  color: #ecfdf5;
+}

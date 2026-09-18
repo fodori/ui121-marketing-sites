@@ -9,5 +9,5 @@ if (!domain) {
 }
 
 const cwd = resolve(process.cwd(), 'sites', domain)
-const result = spawnSync('yarn', ['dev'], { cwd, stdio: 'inherit', shell: true })
+const result = spawnSync('yarn', ['dev'], { cwd, stdio: 'inherit', shell: false })
 process.exit(result.status ?? 1)

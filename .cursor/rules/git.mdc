@@ -1,0 +1,5 @@
+# Git: commit and push only on direct ask
+
+- **Never** `git commit` or `git push` unless the user explicitly asks in the **current** message.
+- Leave working-tree changes uncommitted unless asked.
+- Hooks: Husky `pre-commit` (lint-staged) and `pre-push` (`yarn pre-push`). Do not skip with `--no-verify` unless the user asks.

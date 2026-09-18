@@ -8,7 +8,10 @@ Static marketing landings for UI121-related domains. Astro + React islands + Tai
 yarn install
 yarn site:dev human-in-the-loop.uk
 yarn site:build ui121.com
+yarn lint && yarn type-check && yarn format:check && yarn test
 ```
+
+Husky hooks mirror ui121-web: lint-staged on commit; full quality gate on push.
 
 ## Docs
 

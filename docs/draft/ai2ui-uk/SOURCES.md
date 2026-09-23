@@ -1,3 +1,5 @@
+Full research notes: [archive/INDEX.md](archive/INDEX.md).
+
 # ai2ui.uk — Sources
 
 Researched 2026-09-22. Note: ai2ui.uk itself is a Squarespace "Coming Soon" parking page (see #1); all other sources cover the human-in-the-loop / AI-asks-human / approvals / AI-gateway space.

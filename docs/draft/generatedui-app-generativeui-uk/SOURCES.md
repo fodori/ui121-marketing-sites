@@ -1,6 +1,8 @@
+Full research notes: [archive/INDEX.md](archive/INDEX.md).
+
 # SOURCES — generatedui.app + generativeui.uk (Data-Driven UI + MCP / Generative UI)
 
-*All URLs fetched/verified 22 Sep 2026. Angle: runtime UI as data — pre-built blocks, declarative JSON, MCP/agent-driven interfaces.*
+_All URLs fetched/verified 22 Sep 2026. Angle: runtime UI as data — pre-built blocks, declarative JSON, MCP/agent-driven interfaces._
 
 ## The two target domains (status)
 
@@ -51,7 +53,7 @@
 30. **https://foolproof.co.uk/journal/what-is-gen-ui-and-does-it-matter** — UX-agency view (9 May 2024): generative UI will dynamically create customised interfaces in real time.
 31. **https://www.thedrum.com/opinion/the-screen-s-days-are-numbered-genui-will-be-the-next-big-leap-customer** — The Drum (5 Jun 2025): genUI as the next customer-experience leap.
 32. **https://www.griffiths-waite.co.uk/insights/article/generative-ui-a-first-look-at-v0** — UK consultancy first-look at v0 (Nov 2023) — useful for "generative UI" narrative history.
-33. **https://research-information.bris.ac.uk/en/publications/generative-ui-reshapes-design-practice-not-design-relevance/** — University of Bristol position paper: generative UI reshapes design *practice*, not relevance.
+33. **https://research-information.bris.ac.uk/en/publications/generative-ui-reshapes-design-practice-not-design-relevance/** — University of Bristol position paper: generative UI reshapes design _practice_, not relevance.
 
 ## Notes on coverage
 

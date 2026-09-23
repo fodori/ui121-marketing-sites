@@ -1,3 +1,5 @@
+Full research notes: [archive/INDEX.md](archive/INDEX.md).
+
 # SOURCES — jsonapp.com / "Build Apps as JSON UI" research
 
 All URLs retrieved and verified via live web search/extraction on 2026-09-22. Notes capture what each source contributed.

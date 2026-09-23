@@ -1,4 +1,7 @@
+Full research notes: [archive/INDEX.md](archive/INDEX.md).
+
 # SOURCES.md — PulsarForm research (2026-09-22)
+
 All URLs verified live via web search/extract on 2026-09-22. Note: **pulsarform.com itself was unreachable** — scraping engines (playwright + fetch) failed and search indexes return no results for the domain. Treat the concept as greenfield.
 
 ## Core form builders

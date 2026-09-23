@@ -1,3 +1,5 @@
+Full research notes: [archive/INDEX.md](archive/INDEX.md).
+
 # SOURCES.md — ui1to1.com / ui121 research (one-to-one UI, single interface, unified comms)
 
 All URLs verified live during research (Sept 2026). Notes are grounded in page content seen directly or in search-result extracts from the source itself.

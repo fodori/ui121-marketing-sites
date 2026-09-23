@@ -1,3 +1,5 @@
+Full research notes: [archive/INDEX.md](archive/INDEX.md).
+
 # SOURCES.md — 1ui.uk / only1ui.com / onlyoneui.com research
 
 > 26 real, cited websites. All found via targeted web research (queries noted per section) and key pages read in full via web extraction, September 2026.

@@ -1,10 +1,12 @@
+Full research notes: [archive/INDEX.md](archive/INDEX.md).
+
 # SOURCES.md — ui-mcp.com research (MCP bridging AI to UIs)
 
 Compiled Sep 2026. All URLs fetched via web search/extract during research. Notes are the specific claims each source supports.
 
 ## The site itself
 
-1. **https://ui-mcp.com** — *Coming Soon* (Squarespace parking page). The domain/brand is reserved but unbuilt — naming opportunity is open. Verified by direct extraction.
+1. **https://ui-mcp.com** — _Coming Soon_ (Squarespace parking page). The domain/brand is reserved but unbuilt — naming opportunity is open. Verified by direct extraction.
 
 ## MCP fundamentals (the standard)
 

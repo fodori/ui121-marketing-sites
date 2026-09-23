@@ -1,3 +1,5 @@
+Full research notes: [archive/INDEX.md](archive/INDEX.md).
+
 # SOURCES.md — codereview.uk research
 
 All URLs were returned by live web search (2026-09-22). Notes summarize what each source contributes.
@@ -14,7 +16,7 @@ All URLs were returned by live web search (2026-09-22). Notes summarize what eac
    Hands-on testing of CodeRabbit, devlo, Copilot, Ellipsis — competitive landscape.
 
 4. **Sourcegraph — 13 Best Automated Code Review Tools 2026** — https://sourcegraph.com/blog/automated-code-review-tools
-   Key framing: most automated tools analyze PRs *without a human in the loop* — the exact gap a human-review service attacks.
+   Key framing: most automated tools analyze PRs _without a human in the loop_ — the exact gap a human-review service attacks.
 
 5. **DevToolLab — Best AI Code Review Tools 2026** — https://devtoollab.com/blog/ai-code-review-tools
    Stat: 53% of developers have found security vulnerabilities in AI-written code; teams using Cursor/Claude/Copilot write 80% of code with AI.
@@ -25,7 +27,7 @@ All URLs were returned by live web search (2026-09-22). Notes summarize what eac
 7. **madewithlove — AI code review tools: what works, what doesn't** — https://madewithlove.com/blog/ai-code-review-tools/
    "AI review catches what humans miss and misses what humans catch" — the complementarity argument for AI + human tiers.
 
-8. **Medium (lewis_) — Best AI Code Review Tools 2026** — https://medium.com/@lewis_75321/the-best-ai-code-review-tools-in-2026-599c7dd1b305
+8. **Medium (lewis\_) — Best AI Code Review Tools 2026** — https://medium.com/@lewis_75321/the-best-ai-code-review-tools-in-2026-599c7dd1b305
    Logic errors/security gaps emerge from AI changes interacting with existing codebase — why review depth matters.
 
 ## The bottleneck problem
@@ -66,7 +68,7 @@ All URLs were returned by live web search (2026-09-22). Notes summarize what eac
     Canonical HITL definition/benefits — useful for positioning language.
 
 20. **LinkedIn (Stephen Schmidt) — Why "HITL" is agentic governance theater** — https://www.linkedin.com/pulse/why-human-loop-agentic-governance-theater-stephen-schmidt-8dcde
-    Skeptic view: HITL checkpoints are often decorative — a service selling *real* human review counters this critique.
+    Skeptic view: HITL checkpoints are often decorative — a service selling _real_ human review counters this critique.
 
 21. **Airtable — AI agent platforms with HITL controls** — https://www.airtable.com/articles/human-in-the-loop-ai-agents
     Cross-platform comparison of approval gates; patterns for review-queue UX.

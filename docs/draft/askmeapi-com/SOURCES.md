@@ -1,6 +1,8 @@
+Full research notes: [archive/INDEX.md](archive/INDEX.md).
+
 # askmeapi.com — Sources
 
-*All URLs retrieved Sept 22, 2026. ✔ = page content fetched and verified directly this session; ○ = surfaced via web search (title/description confirmed, full page not opened).*
+_All URLs retrieved Sept 22, 2026. ✔ = page content fetched and verified directly this session; ○ = surfaced via web search (title/description confirmed, full page not opened)._
 
 ## The domain itself
 
@@ -24,7 +26,7 @@
 
 ## Dedicated ask-a-human products
 
-12. ✔ **HumanLayer** — https://www.humanlayer.dev/ — *pivoted*: now markets itself as a "multiplayer coding agent IDE + cloud" (sessions, artifacts, plan docs, diffs). The original HITL API is still referenced in docs/SDK.
+12. ✔ **HumanLayer** — https://www.humanlayer.dev/ — _pivoted_: now markets itself as a "multiplayer coding agent IDE + cloud" (sessions, artifacts, plan docs, diffs). The original HITL API is still referenced in docs/SDK.
 13. ○ **humanlayer on PyPI** — https://pypi.org/project/humanlayer/ — "HumanLayer is an API and SDK that enables AI Agents to contact humans for help, feedback, and approvals." Core market definition for this exact angle.
 14. ○ **Y Combinator launch — HumanLayer (YC F24)** (Oct 2024) — https://www.ycombinator.com/launches/M8e-humanlayer-human-in-the-loop-for-ai-agents-and-beyond — launch page: manual approval steps, oversight of autonomous agents, human/software workflow transition.
 15. ○ **HumanLayer blog — 12 Factor Agents** (Apr 2025) — https://www.humanlayer.dev/blog/12-factor-agents — influential essay; "break the loop and wait for human approval" for high-stakes tool calls (deploy_backend example). Category-defining mindshare.

@@ -1,0 +1,52 @@
+# Archive index — 1ui.uk / only1ui.com / onlyoneui.com
+
+Fetched 2026-09-23. Notes are paraphrases for offline marketing use. SOURCES.md, SUMMARY.md, and LEADERS.md are pointers only.
+
+Counts: 34 numbered notes, 1 extra, 1 failed, 1 partial. No blog index or docs hub was expanded. Source 29 is one long guide, kept as a single note. Source 25 is one article; its companion is the only extra.
+
+| #   | File                                                                                             | URL                                                                                                                                   | Status  |
+| --- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| 1   | [01-bettercloud-saas-statistics.md](01-bettercloud-saas-statistics.md)                           | https://www.bettercloud.com/monitor/saas-statistics/                                                                                  | ok      |
+| 2   | [02-ibm-saas-sprawl.md](02-ibm-saas-sprawl.md)                                                   | https://www.ibm.com/think/topics/saas-sprawl                                                                                          | ok      |
+| 3   | [03-zylo-too-many-apps.md](03-zylo-too-many-apps.md)                                             | https://zylo.com/blog/too-many-apps                                                                                                   | ok      |
+| 4   | [04-breeze-saas-tool-sprawl-statistics.md](04-breeze-saas-tool-sprawl-statistics.md)             | https://www.breeze.pm/articles/saas-tool-sprawl-statistics                                                                            | ok      |
+| 5   | [05-speakwise-productivity-tools-statistics.md](05-speakwise-productivity-tools-statistics.md)   | https://speakwiseapp.com/blog/workplace-productivity-tools-statistics                                                                 | ok      |
+| 6   | [06-speakwise-technology-overload-statistics.md](06-speakwise-technology-overload-statistics.md) | https://speakwiseapp.com/blog/workplace-technology-overload-statistics                                                                | ok      |
+| 7   | [07-forbes-digital-tool-fatigue.md](07-forbes-digital-tool-fatigue.md)                           | https://www.forbes.com/sites/bryanrobinson/2025/10/04/digital-tool-fatigue-eroding-mental-health-and-career-productivity/             | partial |
+| 8   | [08-agilityportal-app-fatigue.md](08-agilityportal-app-fatigue.md)                               | https://agilityportal.io/blog/reducing-app-fatigue-internal-comms                                                                     | ok      |
+| 9   | [09-conclude-context-switching.md](09-conclude-context-switching.md)                             | https://conclude.io/blog/context-switching-is-killing-your-productivity/                                                              | ok      |
+| 10  | [10-waymaker-all-in-one-platforms.md](10-waymaker-all-in-one-platforms.md)                       | https://www.waymakeros.com/learn/best-all-in-one-business-platform-2026                                                               | ok      |
+| 11  | [11-lexisnexis-task-switching.md](11-lexisnexis-task-switching.md)                               | https://www.lexisnexis-es.co.uk/blog/2025/09/10/is-task-switching-killing-your-teams-productivity/                                    | ok      |
+| 12  | [12-linkedin-digital-fatigue-over-tooling.md](12-linkedin-digital-fatigue-over-tooling.md)       | https://www.linkedin.com/pulse/digital-fatigue-epidemic-how-over-tooling-kills-ripla-pgcert-pgdip-mnwue                               | ok      |
+| 13  | [13-cognizant-1cognizant-agents.md](13-cognizant-1cognizant-agents.md)                           | https://www.cognizant.com/us/en/ai-lab/blog/how-cognizant-agentified-its-enterprise-intranet                                          | ok      |
+| 14  | [14-infosys-servicenow-unified-platform.md](14-infosys-servicenow-unified-platform.md)           | https://www.infosys.com/iki/perspectives/unified-platform-works.html                                                                  | ok      |
+| 15  | [15-ibm-single-pane-of-glass.md](15-ibm-single-pane-of-glass.md)                                 | https://www.ibm.com/think/topics/single-pane-of-glass                                                                                 | ok      |
+| 16  | [16-simetric-single-pane-of-glass.md](16-simetric-single-pane-of-glass.md)                       | https://simetric.com/what-is-a-single-pane-of-glass-spog/                                                                             | ok      |
+| 17  | [17-digi-single-pane-of-glass.md](17-digi-single-pane-of-glass.md)                               | https://www.digi.com/blog/post/single-pane-of-glass                                                                                   | ok      |
+| 18  | [18-interlink-spog-monitoring.md](18-interlink-spog-monitoring.md)                               | https://www.interlinksoftware.com/what-is-single-pane-of-glass-monitoring-and-how-can-enterprises-leverage-it-for-enhanced-visibility | ok      |
+| 19  | [19-xeox-single-pane-of-glass.md](19-xeox-single-pane-of-glass.md)                               | https://xeox.com/blog/what-is-a-single-pane-of-glass-in-it/                                                                           | ok      |
+| 20  | [20-rock-collaboration-software.md](20-rock-collaboration-software.md)                           | https://www.rock.so/blog/collaboration-software                                                                                       | ok      |
+| 21  | [21-lark-task-management-tools.md](21-lark-task-management-tools.md)                             | https://www.larksuite.com/en_us/blog/task-management-tools                                                                            | ok      |
+| 22  | [22-routine-one-app.md](22-routine-one-app.md)                                                   | https://routine.co/                                                                                                                   | ok      |
+| 23  | [23-hexagon-enterprise-collaboration.md](23-hexagon-enterprise-collaboration.md)                 | https://hexagonitsolutions.com/blogs/26-best-enterprise-collaboration-tools-for-2026-reviewed.php                                     | ok      |
+| 24  | [24-sap-fiori-design-principles.md](24-sap-fiori-design-principles.md)                           | https://www.sap.com/design-system/fiori-design-ios/discover/sap-design-system/vision-and-mission/sap-fiori-design-principles          | ok      |
+| 25  | [25-thesys-frontend-engineers-generative-ui.md](25-thesys-frontend-engineers-generative-ui.md)   | https://www.thesys.dev/blogs/the-new-role-of-frontend-engineers-in-the-age-of-generative-ui                                           | ok      |
+| 26  | [26-medium-generative-ui-react.md](26-medium-generative-ui-react.md)                             | https://medium.com/@mozzammeluiu/generative-ui-the-react-pattern-thats-replacing-chatbots-in-2026-aded6ed32e26                        | ok      |
+| 27  | [27-designdecode-generative-vs-traditional.md](27-designdecode-generative-vs-traditional.md)     | https://designdecode.org/generative-ui-vs-traditional-ui-design-when-should-you-use-each/                                             | failed  |
+| 28  | [28-linkedin-state-of-agentic-ui.md](28-linkedin-state-of-agentic-ui.md)                         | https://www.linkedin.com/posts/alexwang2911_the-state-of-agentic-ui-activity-7402300648782032896-gvL_                                 | ok      |
+| 29  | [29-swanky-composable-commerce.md](29-swanky-composable-commerce.md)                             | https://swankyagency.com/app/guides/technology/cto-guide-to-composable-commerce                                                       | ok      |
+| 30  | [30-openselfservice-composable-frontends.md](30-openselfservice-composable-frontends.md)         | https://www.openselfservice.com/blog/building-composable-frontends-with-strapi-and-nextjs                                             | ok      |
+| 31  | [31-bagisto-headless-architecture.md](31-bagisto-headless-architecture.md)                       | https://bagisto.com/en/how-to-implement-headless-architecture/                                                                        | ok      |
+| 32  | [32-ux-collective-ux-for-ai.md](32-ux-collective-ux-for-ai.md)                                   | https://uxdesign.cc/are-we-doing-ux-for-ai-the-right-way-aea01e14138e                                                                 | ok      |
+| 33  | [33-lazarev-ui-paradigms.md](33-lazarev-ui-paradigms.md)                                         | https://www.lazarev.agency/articles/modern-ui-paradigms-for-ai-products                                                               | ok      |
+| 34  | [34-bridgeapp-notion-alternatives.md](34-bridgeapp-notion-alternatives.md)                       | https://bridgeapp.ai/resources/blog/the-8-best-notion-alternatives-for-2026                                                           | ok      |
+
+## Extra
+
+| File                                                                                               | URL                                                                                                      | Status | Why                          |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------ | ---------------------------- |
+| [extra/thesys-ui-matters-as-much-as-the-model.md](extra/thesys-ui-matters-as-much-as-the-model.md) | https://www.thesys.dev/blogs/ui-matters-as-much-as-the-model-how-generative-ui-drives-ai-product-success | ok     | Companion named in source 25 |
+
+## Collections
+
+None expanded. Numbered URLs are single articles, product pages, or one guide (source 29). Source 25’s blog lists related posts; those are not a docs hub for this pass. Cap of 25 extras was not reached.

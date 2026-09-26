@@ -9,6 +9,7 @@ Compiled Sept 22, 2026 from live pages. All quotes are verbatim from each compan
 **How they talk:** Human-first, conversational, "forms people actually fill out." Leads with completion-rate numbers and adaptation ("forms that adapt to every respondent").
 
 **Quotes:**
+
 > "Your favorite forms. Now with AI automation. Combine AI forms and automated workflows to drive revenue growth." — Homepage: https://www.typeform.com/
 
 > "Build forms that adapt to every respondent and then analyze your data for rich insights." — Homepage: https://www.typeform.com/
@@ -17,7 +18,7 @@ Compiled Sept 22, 2026 from live pages. All quotes are verbatim from each compan
 
 > "With our simple (yet powerful!) online form builder, 95% of our customers collect more data with less effort. Create forms that'll actually get filled out." — Forms page: https://www.typeform.com/forms/
 
-**Note:** The category-defining conversational voice — every benefit is framed as *conversion/completion*, never as "collecting data" alone.
+**Note:** The category-defining conversational voice — every benefit is framed as _conversion/completion_, never as "collecting data" alone.
 
 ---
 
@@ -26,6 +27,7 @@ Compiled Sept 22, 2026 from live pages. All quotes are verbatim from each compan
 **How they talk:** Pragmatic, productivity-first: "powerful," "get it done," "busywork to less work." Feature-utility language rather than conversation-poetry.
 
 **Quotes:**
+
 > "EASIEST ONLINE FORM BUILDER — Powerful forms get it done. Go from busywork to less work with powerful forms that use conditional logic, accept payments, generate reports, and automate workflows." — Homepage: https://www.jotform.com/
 
 > "Build the form you need in minutes. Create professional-looking forms with no coding using Jotform's online Form Builder." — Homepage: https://www.jotform.com/
@@ -43,6 +45,7 @@ Compiled Sept 22, 2026 from live pages. All quotes are verbatim from each compan
 **How they talk:** Anti-paywall, doc-like simplicity, Notion analogy. Warm, casual, community-flavored.
 
 **Quotes:**
+
 > "Say goodbye to boring forms. Meet Tally — the free, intuitive form builder you've been looking for." — Homepage: https://tally.so/
 
 > "Tally is a new type of online form builder that works like a text document. Just start typing on the page and insert blocks same as Notion." — Homepage: https://tally.so/
@@ -60,6 +63,7 @@ Compiled Sept 22, 2026 from live pages. All quotes are verbatim from each compan
 **How they talk:** Quiet utility and speed: "insights quickly," "real time," "from anywhere." Almost zero marketing hyperbole; verbs over adjectives.
 
 **Quotes:**
+
 > "Online forms to get insights quickly. Easily create forms and surveys to gather data and gain insights from anywhere." — https://workspace.google.com/products/forms/
 
 > "Add logic to show relevant questions based on previous answers to help boost completion rates." — https://workspace.google.com/products/forms/
@@ -68,7 +72,7 @@ Compiled Sept 22, 2026 from live pages. All quotes are verbatim from each compan
 
 > "We used to use emails, paper forms and PDFs for everything from basic forms to recruitment approvals. Many of these processes have moved to Google Forms… it's indispensable to how we work." (customer, RSPCA) — https://workspace.google.com/products/forms/
 
-**Note:** The incumbent default: their "real-time" claim is about *response visualization*, not a live two-way conversation — leaves the real-time-conversation lane open.
+**Note:** The incumbent default: their "real-time" claim is about _response visualization_, not a live two-way conversation — leaves the real-time-conversation lane open.
 
 ---
 
@@ -77,6 +81,7 @@ Compiled Sept 22, 2026 from live pages. All quotes are verbatim from each compan
 **How they talk:** All-in-one capability + design polish: "Forms that do it all," "league of its own," white-label branding.
 
 **Quotes:**
+
 > "Forms that do it all. Make any form with Fillout, the all-in-one form solution." — Homepage: https://www.fillout.com/
 
 > "Make any form, quiz or survey in minutes. Simple yet powerful form builder." — Homepage: https://www.fillout.com/
@@ -94,6 +99,7 @@ Compiled Sept 22, 2026 from live pages. All quotes are verbatim from each compan
 **How they talk:** "Editor that feels like a doc," business-run-the-whole-way, abandonment/conversion proof points.
 
 **Quotes:**
+
 > "Powerful forms that run your business. Build forms that capture data, onboard clients, generate leads, take payments, trigger workflows and send documents for signing, all from one form builder the whole team can use." — Homepage: https://www.paperform.co/
 
 > "Guided 'one question at a time' or classic layouts." — Homepage (Designed for your brand): https://www.paperform.co/
@@ -111,6 +117,7 @@ Compiled Sept 22, 2026 from live pages. All quotes are verbatim from each compan
 **How they talk:** Developer-relief: you own the frontend, we're the backend. "Inbox" language, scale, reliability, sleep-at-night trust.
 
 **Quotes:**
+
 > "The production-ready form backend. Formspree handles submissions end-to-end with storage, deliverability, spam protection and integration so you don't have to." — Homepage: https://formspree.io/
 
 > "Just use Formspree. You've got the frontend. We've got your back." — Homepage: https://formspree.io/
@@ -128,6 +135,7 @@ Compiled Sept 22, 2026 from live pages. All quotes are verbatim from each compan
 **How they talk:** CRM-centric lead-gen machine; explicitly sells abandonment reduction with mechanisms (conditional logic, form shortening, multi-step).
 
 **Quotes:**
+
 > "Convert anonymous website visitors into qualified leads. It's not enough to grow traffic to your website. You also need to find ways to turn those clicks into leads." — https://www.hubspot.com/products/marketing/forms
 
 > "Reduce form abandonment with advanced features. Create a user experience on your forms that encourages engagement and drives conversions… keeping forms brief to minimize drop-offs." — https://www.hubspot.com/products/marketing/forms
@@ -145,6 +153,7 @@ Compiled Sept 22, 2026 from live pages. All quotes are verbatim from each compan
 **How they talk:** Delight-minimalism; forms are woven into registration, never a separate "form builder."
 
 **Quotes:**
+
 > "Delightful events start here. Luma makes every event feel effortless." — Homepage: https://lu.ma/
 
 > "You can add registration questions for your event to collect more information as guests join your event. You can control the number of questions and if they are required or not." — Help: Collect Registration Questions: https://help.lu.ma/p/collect-registration-questions
@@ -162,6 +171,7 @@ Compiled Sept 22, 2026 from live pages. All quotes are verbatim from each compan
 **How they talk:** Design-tool voice: everything is a canvas component with an agent; forms exist as a built-in element rather than a marketed standalone product.
 
 **Quotes:**
+
 > "Design with an agent. A professional design agent, native to the canvas. It works directly on your site to generate and refine in place, with every change visible, editable, and under your control." — Homepage: https://www.framer.com/
 
 > "Agents turn your wildest ideas into code and put them on your site. From simple custom effects to complex interactions." — Homepage: https://www.framer.com/

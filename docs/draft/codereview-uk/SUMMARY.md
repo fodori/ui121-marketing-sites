@@ -13,8 +13,8 @@ Become the trusted review gate for AI-generated code. Every PR (whether written 
 ## 2. The problem today
 
 - **Review is the new bottleneck.** AI lifted writing throughput, not delivery: LinearB's analysis of 8.1M PRs shows code output rose without delivery rising, and review wait times grew. The bottleneck has "moved from writing code to deciding whether code is safe to merge" (Codacy).
-- **AI-written code is riskier and slower to review.** Sonar's State of Code: 38% of developers say reviewing AI-generated code requires *more* effort. New Relic: 74% say ≥25% of AI-generated code needs significant post-deployment rework. Bug rates per developer up 54% (The New Stack).
-- **Safety holes slip through.** 53% of developers have found security vulnerabilities in AI-written code (DevToolLab). Most AI review tools analyze PRs *without a human in the loop* (Sourcegraph) — they catch lint, miss logic and intent.
+- **AI-written code is riskier and slower to review.** Sonar's State of Code: 38% of developers say reviewing AI-generated code requires _more_ effort. New Relic: 74% say ≥25% of AI-generated code needs significant post-deployment rework. Bug rates per developer up 54% (The New Stack).
+- **Safety holes slip through.** 53% of developers have found security vulnerabilities in AI-written code (DevToolLab). Most AI review tools analyze PRs _without a human in the loop_ (Sourcegraph) — they catch lint, miss logic and intent.
 - **Small teams have no reviewer.** Solo founders, agencies, and vibe-coders have no senior second pair of eyes; review-as-a-service exists (PullRequest, Cloudester) but is priced and packaged for enterprise.
 - **Governance pressure.** GitLab and CodeRabbit guidance both call for explicit human-in-the-loop checkpoints at code review, but most teams have no practical mechanism for it.
 
@@ -28,12 +28,12 @@ Become the trusted review gate for AI-generated code. Every PR (whether written 
 ## 4. Cutting edge
 
 - Anthropic's own Code Review deployment took Anthropic's substantive-review rate from 16% → far higher, showing AI-assisted review demand at the frontier.
-- Cloudflare runs AI code review "at scale" across tens of thousands of MRs — approval automation is now table stakes; *human judgment on the flagged subset* is the differentiator.
+- Cloudflare runs AI code review "at scale" across tens of thousands of MRs — approval automation is now table stakes; _human judgment on the flagged subset_ is the differentiator.
 - The market: AI code review category ≈ $420M ARR in 2026, 44% of teams using an AI reviewer on some PRs (IdeaPlan) — but nearly all of it is AI-only, no human tier. That gap is the wedge.
 
 ## 5. Why brilliant
 
-- **The AI tailwind is structural:** AI generates more code every quarter; someone *must* review it. Verification, not generation, is where trust is earned (Pagano: "we're speeding up the wrong part of the pipeline").
+- **The AI tailwind is structural:** AI generates more code every quarter; someone _must_ review it. Verification, not generation, is where trust is earned (Pagano: "we're speeding up the wrong part of the pipeline").
 - **Human-in-the-loop is the compliance story** enterprises and even agent vendors say they need — codereview.uk sells the checkpoint itself as the product.
 - **Reviewer supply-side is labor-market-proof:** expert reviewers work async per-PR, no meetings, perfect for a shared pool — high margins, clear unit economics (minutes per PR × PR volume).
 - **Natural upsell ladder:** AI review (free/cheap) → human review (paid) → audit/compliance reporting (enterprise).
@@ -50,10 +50,10 @@ ui121's human-in-the-loop UX is the core product surface here:
 
 ## 7. Competitive landscape (quick map)
 
-| Player | Model | Gap codereview.uk attacks |
-|---|---|---|
-| CodeRabbit, Copilot Code Review, Ellipsis, devlo | AI-only PR review | No human judgment; false positives; no accountability |
-| PullRequest | Human + AI, enterprise-priced | Not accessible to small teams/solo founders |
-| Cloudester and consultancies | Manual services | Not productized, no AI pre-pass |
-| Git AutoReview | AI multi-model + human approval gate | Approval is the org's own human, not a provided expert |
-| Sonar, Codacy, Graphite | Static analysis / quality gates | Not judgment; doesn't read intent |
+| Player                                           | Model                                | Gap codereview.uk attacks                              |
+| ------------------------------------------------ | ------------------------------------ | ------------------------------------------------------ |
+| CodeRabbit, Copilot Code Review, Ellipsis, devlo | AI-only PR review                    | No human judgment; false positives; no accountability  |
+| PullRequest                                      | Human + AI, enterprise-priced        | Not accessible to small teams/solo founders            |
+| Cloudester and consultancies                     | Manual services                      | Not productized, no AI pre-pass                        |
+| Git AutoReview                                   | AI multi-model + human approval gate | Approval is the org's own human, not a provided expert |
+| Sonar, Codacy, Graphite                          | Static analysis / quality gates      | Not judgment; doesn't read intent                      |

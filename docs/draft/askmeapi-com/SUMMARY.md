@@ -1,7 +1,7 @@
 # askmeapi.com — Research Summary
 
 **Angle: API-FIRST — a server or agent asks a human (or a group) via API and receives a structured, machine-readable reply.**
-*Note: askmeapi.com itself currently resolves to a Squarespace "Coming Soon" parking page — no product, pricing, or team is live as of Sep 2026. Everything below is a strategic/positioning brief for the domain concept, grounded in the surrounding ecosystem.*
+_Note: askmeapi.com itself currently resolves to a Squarespace "Coming Soon" parking page — no product, pricing, or team is live as of Sep 2026. Everything below is a strategic/positioning brief for the domain concept, grounded in the surrounding ecosystem._
 
 ---
 
@@ -16,7 +16,7 @@ In short: **human judgment behind a function call.** The human becomes a tool �
 - **Agents are supposed to be autonomous but aren't allowed to be.** Tool-calling agents (OpenAI Agents SDK, LangGraph, CrewAI, Claude Agent SDK, MCP servers) routinely hit decisions that need a human: approve this deploy, cancel this order, spend this budget, choose between two plans. Today every builder hand-rolls the pause/resume machinery — interrupt states, serialized run state, webhooks, approval UIs, Slack bots, timeouts.
 - **"Human as a dependency" is an anti-pattern in current infrastructure.** Queues time out, functions crash mid-wait, webhooks go unanswered. Teams end up bolting on workflow engines (Temporal signals, Step Functions `waitForTaskToken`, Inngest) just to survive a wait that can last minutes or days.
 - **Human answers come back as mush.** A Slack reply ("yeah that's fine but use the staging key") is not a field in a database. Structured human feedback — enum, boolean, string with validation, JSON-schema-validated — is almost never what the pipeline receives.
-- **Surveys/form tools are built for marketing, not machines.** Typeform, Formbricks, Google Forms collect from humans *for* humans (dashboards, CSVs). They aren't designed as a *dependency of a running server or agent* with callbacks, timeouts, escalation, and typed responses.
+- **Surveys/form tools are built for marketing, not machines.** Typeform, Formbricks, Google Forms collect from humans _for_ humans (dashboards, CSVs). They aren't designed as a _dependency of a running server or agent_ with callbacks, timeouts, escalation, and typed responses.
 
 ## 3. How AskMeAPI helps
 
@@ -41,7 +41,7 @@ In short: **human judgment behind a function call.** The human becomes a tool �
 ## 6. Why brilliant
 
 1. **Obvious-from-the-name, novel-in-practice.** Every developer gets the concept instantly; almost none can buy it as a clean commodity today (HumanLayer pivoted, Temporal/Step Functions require adopting a whole engine).
-2. **Rides the biggest wave in software** — agentic AI — with a boring, unsexy, sticky utility (like Stripe for human answers). Agents will *always* need humans at the edge cases; the primitive never goes out of fashion.
+2. **Rides the biggest wave in software** — agentic AI — with a boring, unsexy, sticky utility (like Stripe for human answers). Agents will _always_ need humans at the edge cases; the primitive never goes out of fashion.
 3. **Structured answers are the moat.** Free-text replies force every integrator to write parsers; a schema-validated human-response API makes the human answer a first-class data type — that's the product.
 4. **Tiny API surface, huge distribution.** One function call `ask()` is trivially demoable, trivially listed in agent tool registries and MCP servers, and spreads by word of mouth through dev communities.
 5. **Two-sided leverage:** it sells to agent builders (tool time) and enterprises (approval workflows, compliance audit trails), and the human-facing answer pages are a natural consumer of a form-builder like ui121.

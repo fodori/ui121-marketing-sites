@@ -5,12 +5,15 @@
 ---
 
 ## 1. Retool
+
 **Website:** https://retool.com
 **Sources:**
+
 - https://docs.retool.com/apps/guides/app-management/import-export
 - https://docs.retool.com/build/apps
 
 **Quotes:**
+
 - "An app can be exported as either a single JSON file or a Toolscript archive of many files."
 - "To export an app from the app IDE, in the App actions menu, click Export to JSON or Export to Toolscript ZIP."
 - "Build apps with AI using the new app builder... The agent generates a React-based app consisting of components, themes, and functions that connect to your resources."
@@ -21,10 +24,12 @@
 ---
 
 ## 2. Airbnb (Ghost Platform)
+
 **Website:** https://www.airbnb.com — engineering blog: https://medium.com/airbnb-engineering
 **Source:** "A Deep Dive into Airbnb's Server-Driven UI System" (Ryan Brooks, Jun 2021) — https://medium.com/airbnb-engineering/a-deep-dive-into-airbnbs-server-driven-ui-system-842244c5f5
 
 **Quotes:**
+
 - "How Airbnb ships features faster across web, iOS, and Android using a server-driven UI system named Ghost Platform 👻."
 - "The Ghost Platform (GP) is a unified, opinionated, server-driven UI system that enables us to iterate rapidly and launch features safely across web, iOS, and Android."
 - "The backbone of the Ghost Platform is a standardized data model that clients can use to render UI."
@@ -36,10 +41,12 @@
 ---
 
 ## 3. Netflix
+
 **Website:** https://netflix.com — tech blog: https://netflixtechblog.com
 **Source:** "Making our Android Studio Apps Reactive with UI Components & Redux" (May 2019) — https://netflixtechblog.com/making-our-android-studio-apps-reactive-with-ui-components-redux-5e37aac3b244
 
 **Quotes:**
+
 - "We believe reactive components are the key foundation to achieve composable UIs that are scalable, reusable, unit testable and AB test friendly."
 - "Composable UIs contribute to fast engineering velocity and produce less side effect bugs."
 - "Our current player UI in the Netflix Android app is using our first iteration of this componentization architecture."
@@ -50,10 +57,12 @@
 ---
 
 ## 4. Shopify (Remote DOM)
+
 **Website:** https://shopify.dev
 **Source:** Remote DOM README (Shopify/open-source) — https://github.com/Shopify/remote-dom
 
 **Quotes:**
+
 - "Remote DOM lets you take a tree of DOM elements created in a sandboxed JavaScript environment, and render them to the DOM in a different JavaScript environment."
 - "This allows you to isolate potentially-untrusted code off the main thread, but still allow that code to render a controlled set of UI elements to the main page."
 - "Remote DOM also offers a minimal polyfill of key DOM APIs. This lets you use a Web Worker to run JavaScript libraries that would usually need to be run on the top-level HTML page, like Preact and Svelte."
@@ -63,10 +72,12 @@
 ---
 
 ## 5. Microsoft (Adaptive Cards)
+
 **Website:** https://adaptivecards.io — docs: https://learn.microsoft.com/en-us/adaptive-cards/
 **Source:** Adaptive Cards Overview — https://learn.microsoft.com/en-us/adaptive-cards/
 
 **Quotes:**
+
 - "Adaptive Cards are an open card exchange format enabling developers to exchange UI content in a common and consistent way."
 - "A whole new way to deliver UI: Adaptive Cards are platform-agnostic snippets of UI, authored in JSON, that apps and services can openly exchange. When delivered to a specific app, the JSON is transformed into native UI that automatically adapts to its surroundings."
 - "It helps design and integrate light-weight UI for all major platforms and frameworks."
@@ -76,10 +87,12 @@
 ---
 
 ## 6. Stripe (Elements)
+
 **Website:** https://stripe.com
 **Source:** Elements docs — https://docs.stripe.com/payments/elements
 
 **Quotes:**
+
 - "Stripe Elements is a set of prebuilt UI components for building your web checkout flow."
 - "It's available as a feature of Stripe.js, our foundational JavaScript library for building payment flows."
 - "Stripe.js tokenizes sensitive payment details within an Element without ever having them touch your server."
@@ -89,12 +102,15 @@
 ---
 
 ## 7. Bubble
+
 **Website:** https://bubble.io
 **Sources:**
+
 - https://bubble.io/ (homepage)
 - https://manual.bubble.io/ (docs)
 
 **Quotes:**
+
 - "Bubble: Build web & mobile apps with the only no-code AI app builder" (homepage title)
 - "Bubble is a visual tools that lets you design your app by dragging and dropping elements such as text, buttons, links, tables and even maps on a page." (manual.bubble.io; typo theirs)
 - "Whether you want to create an elaborate presentation page with images and animations or a simple signup form, it's all done by combining different elements in a way that your users find useful and visually pleasing."
@@ -105,10 +121,12 @@
 ---
 
 ## 8. JSON Forms (EclipseSource)
+
 **Website:** https://jsonforms.io
 **Source:** https://jsonforms.io/ (homepage)
 
 **Quotes:**
+
 - "More forms. Less code."
 - "Declare your forms as JSON based on a JSON Schema."
 - "JSON Forms is a JSON Schema based approach for creating forms. It comes with off the shelf support for React, Angular and Vue."
@@ -119,10 +137,12 @@
 ---
 
 ## 9. JSON Schema (Open Standards Org)
+
 **Website:** https://json-schema.org
 **Source:** "What is JSON Schema?" — https://json-schema.org/overview/what-is-jsonschema
 
 **Quotes:**
+
 - "JSON Schema is a declarative language for defining structure and constraints for JSON data."
 - "JSON Schema allows developers to describe the structure, constraints, and data types of existing JSON data."
 - "JSON Schema supports the creation of machine and human readable documentation."
@@ -132,10 +152,12 @@
 ---
 
 ## 10. Mobile Native Foundation
+
 **Website:** https://mobilenativefoundation.org
 **Source:** https://mobilenativefoundation.org/
 
 **Quotes:**
+
 - "Improving engineering for large-scale mobile applications."
 - "The Mobile Native Foundation provides a place to collaborate on open source projects and discuss wide ranging topics in order to improve processes and technologies for large-scale Android and iOS applications."
 

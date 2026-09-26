@@ -6,6 +6,7 @@ Context: ui121 — ONE SURFACE. How the giants talk about unifying apps into one
 ---
 
 ## 1. Notion
+
 **Website:** https://www.notion.com
 
 - "The AI workspace that works for you." — https://www.notion.com/ (page title)
@@ -18,6 +19,7 @@ Context: ui121 — ONE SURFACE. How the giants talk about unifying apps into one
 ---
 
 ## 2. Salesforce
+
 **Website:** https://www.salesforce.com
 
 - "Humans with Agents drive customer success together." — https://www.salesforce.com/uk/
@@ -30,6 +32,7 @@ Context: ui121 — ONE SURFACE. How the giants talk about unifying apps into one
 ---
 
 ## 3. ServiceNow
+
 **Website:** https://www.servicenow.com
 
 - "Put AI to work with the Now Platform: Connect and automate workflows across the enterprise with a single AI platform for business transformation." — https://www.servicenow.com/uk/ (via web.archive.org snapshot)
@@ -42,6 +45,7 @@ Context: ui121 — ONE SURFACE. How the giants talk about unifying apps into one
 ---
 
 ## 4. Microsoft 365
+
 **Website:** https://www.microsoft.com/microsoft-365
 
 - "Your productivity, supercharged." — https://www.microsoft.com/en-gb/microsoft-365/
@@ -53,6 +57,7 @@ Context: ui121 — ONE SURFACE. How the giants talk about unifying apps into one
 ---
 
 ## 5. Google Workspace
+
 **Website:** https://workspace.google.com
 
 - "The better way to work." — https://workspace.google.com/
@@ -65,6 +70,7 @@ Context: ui121 — ONE SURFACE. How the giants talk about unifying apps into one
 ---
 
 ## 6. Atlassian
+
 **Website:** https://www.atlassian.com
 
 - "Unleash your teams and their agents. Everyone. Working on the right things." — https://www.atlassian.com/
@@ -77,6 +83,7 @@ Context: ui121 — ONE SURFACE. How the giants talk about unifying apps into one
 ---
 
 ## 7. Slack (Salesforce)
+
 **Website:** https://slack.com
 
 - "All your people and AI agents working together." — https://slack.com/
@@ -89,6 +96,7 @@ Context: ui121 — ONE SURFACE. How the giants talk about unifying apps into one
 ---
 
 ## 8. Workday
+
 **Website:** https://www.workday.com
 
 - "A unified AI platform built to serve your entire organisation." — https://www.workday.com/en-gb/
@@ -101,6 +109,7 @@ Context: ui121 — ONE SURFACE. How the giants talk about unifying apps into one
 ---
 
 ## 9. monday.com
+
 **Website:** https://monday.com
 
 - "People and agents working as one team." — https://monday.com/
@@ -118,4 +127,4 @@ Context: ui121 — ONE SURFACE. How the giants talk about unifying apps into one
 2. **The new unifier is AI + agents** — nobody sells "fewer tabs" directly anymore; they sell one surface where AI agents and people work together.
 3. **Sprawl is named, not shamed** — Atlassian's "scattered tools" and Workday's "last software your teams will ever need to learn" are the most direct anti-sprawl hooks.
 4. **Proof vocabulary differs by tier** — giants lean on Gartner/Forbes badges and Fortune-500 stats; Notion/monday on community/user counts.
-5. **Whitespace for ui121:** none of the leaders promise a *unified interface over existing apps* — they all want you to migrate *into* their single platform. "One UI across the apps you already use" remains unclaimed.
+5. **Whitespace for ui121:** none of the leaders promise a _unified interface over existing apps_ — they all want you to migrate _into_ their single platform. "One UI across the apps you already use" remains unclaimed.

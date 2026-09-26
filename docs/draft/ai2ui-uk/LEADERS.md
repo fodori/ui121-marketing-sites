@@ -5,6 +5,7 @@ Collected Sept 2026. All quotes are verbatim from the named sources. For each le
 ---
 
 ## 1. Anthropic
+
 **Website:** anthropic.com
 
 > "Agents begin their work with either a command from, or interactive discussion with, the human user. Once the task is clear, agents plan and operate independently, potentially returning to the human for further information or judgement. … Agents can then pause for human feedback at checkpoints or when encountering blockers."
@@ -23,11 +24,12 @@ Collected Sept 2026. All quotes are verbatim from the named sources. For each le
 
 — [Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)
 
-*Note:* Anthropic frames HITL as a design principle for reliability — agents "pause for human feedback at checkpoints," human oversight as a first-class pattern, not an afterthought.
+_Note:_ Anthropic frames HITL as a design principle for reliability — agents "pause for human feedback at checkpoints," human oversight as a first-class pattern, not an afterthought.
 
 ---
 
 ## 2. OpenAI
+
 **Website:** openai.com
 
 > "Operator is trained to ensure that the person using it is always in control and asks for input at critical points."
@@ -46,11 +48,12 @@ Collected Sept 2026. All quotes are verbatim from the named sources. For each le
 
 — [Introducing Operator](https://openai.com/index/introducing-operator/)
 
-*Note:* OpenAI's voice is consumer-facing control UX — "takeover," "confirmations," "watch mode": a graded ladder of human supervision layered onto an autonomous agent.
+_Note:_ OpenAI's voice is consumer-facing control UX — "takeover," "confirmations," "watch mode": a graded ladder of human supervision layered onto an autonomous agent.
 
 ---
 
 ## 3. LangChain (LangGraph)
+
 **Website:** langchain.com
 
 > "Interrupts allow you to pause graph execution at specific points and wait for external input before continuing. This enables human-in-the-loop patterns where you need external input to proceed."
@@ -65,11 +68,12 @@ Collected Sept 2026. All quotes are verbatim from the named sources. For each le
 
 — [LangGraph Interrupts docs](https://langchain-ai.github.io/langgraph/concepts/human_in_the_loop/)
 
-*Note:* LangChain's voice is developer-primitive focused — the `interrupt()` function as a first-class HITL construct ("Do you approve this action?" is literally their code sample).
+_Note:_ LangChain's voice is developer-primitive focused — the `interrupt()` function as a first-class HITL construct ("Do you approve this action?" is literally their code sample).
 
 ---
 
 ## 4. Temporal
+
 **Website:** temporal.io
 
 > "It's what lets an application wait days for approval and pick right back up where it left off after an outage, without a developer rebuilding that machinery by hand every time."
@@ -84,11 +88,12 @@ Collected Sept 2026. All quotes are verbatim from the named sources. For each le
 
 — [Temporal raises $550M Series E](https://temporal.io/blog/temporal-raises-usd550m-series-e-at-usd12-55b-valuation-ai)
 
-*Note:* Temporal frames human waits ("wait days for approval") as an infrastructure primitive — durable execution is what makes human-in-the-loop pauses survivable across outages and time.
+_Note:_ Temporal frames human waits ("wait days for approval") as an infrastructure primitive — durable execution is what makes human-in-the-loop pauses survivable across outages and time.
 
 ---
 
 ## 5. Microsoft (Semantic Kernel / Microsoft Agent Framework)
+
 **Website:** learn.microsoft.com
 
 > "This page provides an overview of **Human-in-the-loop (HITL)** interactions in the Microsoft Agent Framework Workflow system. HITL is achieved through the **request and response** handling mechanism in workflows, which allows executors to send requests to external systems (such as human operators) and wait for their responses before proceeding with the workflow execution."
@@ -103,11 +108,12 @@ Collected Sept 2026. All quotes are verbatim from the named sources. For each le
 
 — [Agent Framework Workflows – HITL](https://learn.microsoft.com/en-us/agent-framework/workflows/human-in-the-loop?pivots=dotnet)
 
-*Note:* Microsoft treats the human operator as an external system the workflow formally requests and waits on — HITL is a checkpointed message-passing pattern with full framework support.
+_Note:_ Microsoft treats the human operator as an external system the workflow formally requests and waits on — HITL is a checkpointed message-passing pattern with full framework support.
 
 ---
 
 ## 6. Google (Agent Development Kit / ADK)
+
 **Website:** adk.dev (google.github.io/adk-docs)
 
 > "**Pattern Overview:** Intercept requests before they reach the LLM or tools to enforce rules. … Use `before_tool_callback` to inspect tool arguments - If a policy violation is detected … Return a predefined response to block the operation."
@@ -118,15 +124,16 @@ Collected Sept 2026. All quotes are verbatim from the named sources. For each le
 
 — [Function tools](https://adk.dev/tools-custom/function-tools/)
 
-> "…an agent framework lets you create a managed, repeatable task structure that can run *hands-off* with minimal human input."
+> "…an agent framework lets you create a managed, repeatable task structure that can run _hands-off_ with minimal human input."
 
 — [ADK FAQ](https://adk.dev/)
 
-*Note:* Google's ADK voice leans on callback hooks (`before_tool_callback`) as the enforcement/inspection point where gatekeeping — including human approval — gets wired in.
+_Note:_ Google's ADK voice leans on callback hooks (`before_tool_callback`) as the enforcement/inspection point where gatekeeping — including human approval — gets wired in.
 
 ---
 
 ## 7. AWS (Amazon Bedrock / AgentCore / Step Functions)
+
 **Website:** aws.amazon.com
 
 > "With AgentCore, you can enable agents to take actions across tools and data with the right permissions and governance, run agents securely at scale, and monitor agent performance and quality in production."
@@ -141,11 +148,12 @@ Collected Sept 2026. All quotes are verbatim from the named sources. For each le
 
 — [What is AWS Step Functions?](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html)
 
-*Note:* AWS voices HITL as enterprise plumbing — governed agent actions plus the `.waitForTaskToken` callback pattern as the canonical "pause the machine until a human responds" mechanism.
+_Note:_ AWS voices HITL as enterprise plumbing — governed agent actions plus the `.waitForTaskToken` callback pattern as the canonical "pause the machine until a human responds" mechanism.
 
 ---
 
 ## 8. IBM (watsonx)
+
 **Website:** ibm.com
 
 > "Human-in-the-loop (HITL) refers to a system or process in which a human actively participates in the operation, supervision or decision-making of an automated system. In the context of AI, HITL means that humans are involved at some point in the AI workflow to ensure accuracy, safety, accountability or ethical decision-making."
@@ -164,11 +172,12 @@ Collected Sept 2026. All quotes are verbatim from the named sources. For each le
 
 — [What Is Human In The Loop (HITL)? | IBM](https://www.ibm.com/think/topics/human-in-the-loop)
 
-*Note:* IBM's voice is governance-and-accountability — HITL as the mechanism that keeps autonomous decisions verified and responsibility assigned, tied to the watsonx platform.
+_Note:_ IBM's voice is governance-and-accountability — HITL as the mechanism that keeps autonomous decisions verified and responsibility assigned, tied to the watsonx platform.
 
 ---
 
 ## 9. Scale AI
+
 **Website:** scale.com
 
 > "One of the questions in building it was when to let the agent act on its own and when to put a person in the loop. That question, and how to answer it in dollars, is the subject of this article."
@@ -187,11 +196,12 @@ Collected Sept 2026. All quotes are verbatim from the named sources. For each le
 
 — [HITL routing](https://scale.com/blog/hitl-routing)
 
-*Note:* Scale's voice is economics-of-judgment — pricing human review against expected value and treating "when to route work to a human" as a measurable, risk-adjusted decision.
+_Note:_ Scale's voice is economics-of-judgment — pricing human review against expected value and treating "when to route work to a human" as a measurable, risk-adjusted decision.
 
 ---
 
 ## 10. NIST (research/policy leader)
+
 **Website:** nist.gov
 
 > "NIST has developed a framework to better manage risks to individuals, organizations, and society associated with artificial intelligence (AI). The NIST AI Risk Management Framework (AI RMF) is intended for voluntary use and to improve the ability to incorporate trustworthiness considerations into the design, development, use, and evaluation of AI products, services, and systems."
@@ -206,12 +216,13 @@ Collected Sept 2026. All quotes are verbatim from the named sources. For each le
 
 — [AI Risk Management Framework | NIST](https://www.nist.gov/itl/ai-risk-management-framework)
 
-*Note:* NIST supplies the policy vocabulary — trustworthiness incorporated at design time, human oversight as part of risk management for AI systems (AI RMF 1.0 + GenAI profile).
+_Note:_ NIST supplies the policy vocabulary — trustworthiness incorporated at design time, human oversight as part of risk management for AI systems (AI RMF 1.0 + GenAI profile).
 
 ---
 
 ## Voice synthesis (for ai2ui positioning)
-- **Anthropic / OpenAI** (model vendors): human checkpoints as a *design principle* and a *graded control ladder* (takeover, confirmations, watch mode).
-- **LangChain / Microsoft / Temporal / AWS** (framework & infra vendors): HITL as a *developer primitive* — interrupts, request/response ports, durable waits, task-token callbacks. The human is a pause point the machine waits on.
-- **IBM / NIST / Scale** (governance & economics): HITL as *accountability and measurement* — who approves, what it costs, and when human review is worth it (risk-adjusted routing).
+
+- **Anthropic / OpenAI** (model vendors): human checkpoints as a _design principle_ and a _graded control ladder_ (takeover, confirmations, watch mode).
+- **LangChain / Microsoft / Temporal / AWS** (framework & infra vendors): HITL as a _developer primitive_ — interrupts, request/response ports, durable waits, task-token callbacks. The human is a pause point the machine waits on.
+- **IBM / NIST / Scale** (governance & economics): HITL as _accountability and measurement_ — who approves, what it costs, and when human review is worth it (risk-adjusted routing).
 - Common thread every leader shares: the AI must **ask**, the human **approves**, and the system must **survive the wait** — exactly the gateway positioning of ai2ui.

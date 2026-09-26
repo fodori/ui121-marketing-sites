@@ -1,13 +1,13 @@
 # ui-mcp.com — Research Summary
 
 **Angle: CONNECT ANY AI VIA MCP — using the Model Context Protocol to bridge AIs to UIs/interfaces**
-*(Site note: ui-mcp.com itself is currently a Squarespace "Coming Soon" parking page — the brand/domain is reserved but unbuilt. The opportunity below is grounded in the live MCP + UI ecosystem.)*
+_(Site note: ui-mcp.com itself is currently a Squarespace "Coming Soon" parking page — the brand/domain is reserved but unbuilt. The opportunity below is grounded in the live MCP + UI ecosystem.)_
 
 ---
 
 ## 1. Main goal
 
-Establish **"MCP as the universal plug between AI and interfaces."** The Model Context Protocol (MCP) is now the standard way any AI (Claude, ChatGPT, Gemini, Copilot, Cursor, VS Code…) connects to tools and data — a "USB-C port for AI applications." The next frontier is **UI**: tools don't just return JSON blobs for the host to interpret — they return *interactive interfaces* that render inside the conversation. ui-mcp.com's positioning: any AI, connected via MCP, to any interface.
+Establish **"MCP as the universal plug between AI and interfaces."** The Model Context Protocol (MCP) is now the standard way any AI (Claude, ChatGPT, Gemini, Copilot, Cursor, VS Code…) connects to tools and data — a "USB-C port for AI applications." The next frontier is **UI**: tools don't just return JSON blobs for the host to interpret — they return _interactive interfaces_ that render inside the conversation. ui-mcp.com's positioning: any AI, connected via MCP, to any interface.
 
 ## 2. Problem today
 
@@ -38,7 +38,7 @@ Establish **"MCP as the universal plug between AI and interfaces."** The Model C
 
 ui121's thesis (UIs/interfaces for the agentic era) maps directly onto this wave:
 
-- **Same seam, deeper layer.** MCP Apps standardizes *transport* of UI from MCP servers into hosts. ui121 can own the *creation* layer: designing, generating, and optimizing the actual UIs that ride that transport — the interfaces an AI presents and acts through.
+- **Same seam, deeper layer.** MCP Apps standardizes _transport_ of UI from MCP servers into hosts. ui121 can own the _creation_ layer: designing, generating, and optimizing the actual UIs that ride that transport — the interfaces an AI presents and acts through.
 - **"Connect any AI" is exactly ui121's distribution story.** Because MCP is client-agnostic, a ui121-built interface works in Claude, ChatGPT, Copilot, Goose, and every MCP host at once — no per-app rebuild. One build, every AI.
 - **Domain expertise:** commerce UIs (product selection, checkout), data visualization, form-driven workflows — the three verticals the ecosystem cites as impossible via text alone — are natural ui121 deliverables as MCP Apps / mcp-ui components.
 - **Tooling angle:** ui121 could ship a "UI MCP server" — expose ui121-designed UI resources (`ui://`) so any AI instantly gets branded, interactive interfaces.
@@ -53,4 +53,4 @@ ui121's thesis (UIs/interfaces for the agentic era) maps directly onto this wave
 
 ---
 
-*Compiled Sep 2026. All claims sourced in SOURCES.md.*
+_Compiled Sep 2026. All claims sourced in SOURCES.md._

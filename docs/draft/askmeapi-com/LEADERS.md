@@ -6,6 +6,7 @@ All quotes are verbatim from public docs, blogs, or product pages (fetched live,
 ---
 
 ## 1. OpenAI — Agents SDK (`needs_approval`)
+
 **Website:** https://openai.com (SDK: https://openai.github.io/openai-agents-python/)
 
 > "Use the human-in-the-loop (HITL) flow to pause agent execution until a person approves or rejects sensitive tool calls. Tools declare when they need approval, run results surface pending approvals as interruptions, and `RunState` lets you serialize paused runs and resume them after decisions are made."
@@ -22,6 +23,7 @@ All quotes are verbatim from public docs, blogs, or product pages (fetched live,
 ---
 
 ## 2. Anthropic — Claude Agent SDK (`canUseTool` / permission flow)
+
 **Website:** https://www.anthropic.com (SDK docs: https://docs.anthropic.com)
 
 > "The Claude Agent SDK provides permission controls to manage how Claude uses tools. Use permission modes and rules to define what's allowed automatically, and the `canUseTool` callback to handle everything else at runtime."
@@ -39,6 +41,7 @@ All quotes are verbatim from public docs, blogs, or product pages (fetched live,
 ---
 
 ## 3. Temporal — Durable Execution + Signals/Updates
+
 **Website:** https://temporal.io
 
 > "Temporal Workflows are resilient. They can run—and keep running—for years, even if the underlying infrastructure fails. If the application itself crashes, Temporal will automatically recreate its pre-failure state so it can continue right where it left off."
@@ -56,6 +59,7 @@ All quotes are verbatim from public docs, blogs, or product pages (fetched live,
 ---
 
 ## 4. AWS Step Functions — Wait for Callback with Task Token
+
 **Website:** https://aws.amazon.com/step-functions/
 
 > "Wait for a Callback with Task Token — Call a service with a task token and have Step Functions wait until that token is returned with a payload."
@@ -70,6 +74,7 @@ All quotes are verbatim from public docs, blogs, or product pages (fetched live,
 ---
 
 ## 5. HumanLayer — Human-in-the-loop agent workspace
+
 **Website:** https://humanlayer.dev
 
 > "**Do not outsource the thinking.** Every phase is a place to push back."
@@ -86,6 +91,7 @@ All quotes are verbatim from public docs, blogs, or product pages (fetched live,
 ---
 
 ## 6. Pushary — Approve Your AI Agents From Your Phone
+
 **Website:** https://www.pushary.com
 
 > "Your agent froze, waiting for your yes. Pushary sends that one decision to your phone. Tap yes and it finishes the job while you are away, across every agent you run."
@@ -102,6 +108,7 @@ All quotes are verbatim from public docs, blogs, or product pages (fetched live,
 ---
 
 ## 7. n8n — Wait node (webhook/form resume)
+
 **Website:** https://n8n.io
 
 > "Use the Wait node pause your workflow's execution. When the workflow pauses it offloads the execution data to the database. When the resume condition is met, the workflow reloads the data and the execution continues."
@@ -116,6 +123,7 @@ All quotes are verbatim from public docs, blogs, or product pages (fetched live,
 ---
 
 ## 8. Zapier — HITL approval steps & agents
+
 **Website:** https://zapier.com
 
 > "Human-in-the-loop refers to the intentional integration of human oversight into autonomous AI workflows at critical decision points. Instead of letting an agent execute tasks end-to-end and hoping it makes the right call, HITL adds user approval, rejection, or feedback checkpoints before the workflow continues."
@@ -132,6 +140,7 @@ All quotes are verbatim from public docs, blogs, or product pages (fetched live,
 ---
 
 ## 9. LangGraph (LangChain) — `interrupt()` / HITL
+
 **Website:** https://www.langchain.com (LangGraph: https://langchain-ai.github.io/langgraph/)
 
 > "Interrupts allow you to pause graph execution at specific points and wait for external input before continuing. This enables human-in-the-loop patterns where you need external input to proceed. When an interrupt is triggered, LangGraph saves the graph state using its persistence layer and waits indefinitely until you resume execution."
@@ -148,6 +157,7 @@ All quotes are verbatim from public docs, blogs, or product pages (fetched live,
 ---
 
 ## 10. Inngest — Durable functions + `step.waitForEvent()`
+
 **Website:** https://www.inngest.com
 
 > "Use `step.waitForEvent()` to pause your function's execution until a matching event is received or a timeout is reached. This is useful for building human-in-the-loop workflows, waiting for approvals, or coordinating between separate functions."
@@ -162,6 +172,7 @@ All quotes are verbatim from public docs, blogs, or product pages (fetched live,
 ---
 
 ## Cross-cutting voice patterns (for askmeapi positioning)
+
 - **Pause → wait (durable) → structured reply → resume** is the universal grammar: OpenAI (RunState/interruptions), LangGraph (interrupt/Command(resume=...)), Temporal (Signal/Update), Step Functions (task token), Inngest (waitForEvent), n8n (resumeUrl).
 - **Structured question types** appear everywhere humans answer: Pushary (confirm/select/input), Zapier (approve/decline/edit), Inngest (schema-typed events), OpenAI (approve/reject per ToolApprovalItem).
 - **Safety/risk vocabulary**: "sensitive tool calls," "fail closed" (OpenAI), "critical decision points" (Zapier), "risky steps you cannot undo" (Pushary), "critical actions" (LangGraph).

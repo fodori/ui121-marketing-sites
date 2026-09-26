@@ -1,6 +1,6 @@
 # 1ui.uk / only1ui.com / onlyoneui.com — Domain Research: ONE SURFACE
 
-> Angle: **"One surface."** Pages, forms and charts stop being separate apps and become *tasks* rendered on a single universal UI canvas. Apps don't get integrated — they collapse toward one UI. All three domains funnel to the **ui121** company story (universal JSON UI canvas).
+> Angle: **"One surface."** Pages, forms and charts stop being separate apps and become _tasks_ rendered on a single universal UI canvas. Apps don't get integrated — they collapse toward one UI. All three domains funnel to the **ui121** company story (universal JSON UI canvas).
 
 ---
 
@@ -11,11 +11,13 @@ To own the conceptual position of **"the one UI"**: instead of employees navigat
 ## 2. Why this is a real problem today (with and without AI)
 
 **Without AI — app sprawl is measured, growing and expensive:**
+
 - Companies average **118 SaaS apps** (up from 106; mid-sized firms jumped 116→164 in one year) and spend ~$49M/yr across ~275 apps; **48% of enterprise apps are unmanaged** and ~half of licenses go unused (BetterCloud State of SaaS; IBM/Zylo).
 - Employees toggle between applications **~1,200 times per day**, losing ~4 hours/week to the "toggle tax"; HBR-researched context switching costs knowledge workers **20–40 minutes per task** (Speakwise/agilityPortal/HBR via Waymaker). Tool fatigue is now a documented mental-health and productivity problem (Forbes, 2025).
 - Internal landscapes are literally patchworks: departments built their own apps on their own stacks — "booking leave meant one system, checking IT request status meant another" (Cognizant). Enterprises want unified platforms precisely to fight "system sprawl, data silos, fragmented experiences" (Infosys).
 
-**With AI — the problem gets *worse*, not better:**
+**With AI — the problem gets _worse_, not better:**
+
 - AI is bought as SaaS: 53% of firms added new AI-powered SaaS apps last year; 27 AI apps on average are deployed; 22% of all SaaS apps are now AI-powered, 3× growth in a year (BetterCloud). AI agents are adopted **in silos**, each on its own stack — "the tools got smarter, but the experience stayed fragmented" (Cognizant AI Lab). Even IBM's own study warns technology is deployed faster than IT can track (shadow AI gap, 2026).
 - Meanwhile chat-only interfaces hit a wall: forcing everything into chat "makes AI products harder to use" (UX Collective); complex multi-step work needs structured, task-focused UI, not a conversation stream (Lazarev; UX Tigers). So AI multiplies the number of surfaces employees must learn.
 
@@ -23,8 +25,8 @@ To own the conceptual position of **"the one UI"**: instead of employees navigat
 
 A single canvas attacks fragmentation at the presentation layer, where integration projects and SaaS-management platforms can't reach:
 
-- **Tasks, not apps.** SAP Fiori's proven design principles — role-based, adaptive, simple, coherent — show what a task-centric, coherent surface delivers versus per-department apps. The canvas generalises this: a form, a chart, a table, a wizard are all *rendered task instances*, not bespoke apps.
-- **One rendering contract.** The "single pane of glass" pattern (IBM, Simetric) already proves value for IT/monitoring: consolidate many tools into one view *connected to workflows*. A JSON UI canvas extends the same idea to *all* work — one universal renderer over many backends, the same decoupling headless/composable architectures apply to commerce and content (Swanky, OpenSelfService).
+- **Tasks, not apps.** SAP Fiori's proven design principles — role-based, adaptive, simple, coherent — show what a task-centric, coherent surface delivers versus per-department apps. The canvas generalises this: a form, a chart, a table, a wizard are all _rendered task instances_, not bespoke apps.
+- **One rendering contract.** The "single pane of glass" pattern (IBM, Simetric) already proves value for IT/monitoring: consolidate many tools into one view _connected to workflows_. A JSON UI canvas extends the same idea to _all_ work — one universal renderer over many backends, the same decoupling headless/composable architectures apply to commerce and content (Swanky, OpenSelfService).
 - **Where the human meets the machine.** Cognizant's 1Cognizant replaced a fragmented portal estate with one interface over 200+ agents/systems and cut support tickets 50% in five months — evidence that removing navigation overhead, not adding features, is what produces the step change. ui121 makes that pattern available to any org without a bespoke multi-agent programme.
 
 ## 4. Cutting-edge / solution angle
@@ -33,7 +35,7 @@ The industry is converging on the canvas idea from three directions at once:
 
 1. **Generative UI** — interfaces dynamically generated at runtime by AI models rather than hardcoded (Thesys, Medium, Design Decade): the frontend engineer's role shifts from writing screens to defining the system that renders them.
 2. **Server-driven / JSON UI** — frontends that render from structured payloads instead of shipping code (Reddit/industry debate; OpenSelfService's "frontend should focus mostly on rendering"): proven in native apps, now moving to the enterprise web.
-3. **Agentic UI protocols** — protocols that let AI agents produce *real interactive interfaces*, not just text (LinkedIn agentic-UI discussion; "UI matters as much as the model" — Thesys).
+3. **Agentic UI protocols** — protocols that let AI agents produce _real interactive interfaces_, not just text (LinkedIn agentic-UI discussion; "UI matters as much as the model" — Thesys).
 
 The cutting edge is therefore **pre-built blocks over free-form HTML**: safe, governed, schema-driven UI generated by AI and rendered on a universal canvas. That is exactly ui121's thesis — the UI layer becomes a service the enterprise (and its AI agents) render against.
 
@@ -48,8 +50,8 @@ ui121 is the **universal JSON UI canvas**: one renderer that takes structured JS
 
 ## 6. Why this idea is brilliant — market context
 
-Enterprise software has spent a decade optimising *backend* integration while the *human* interface kept multiplying: 118+ apps per company and rising, AI adoption adding another wave of silos on top. The "toggle tax" — ~1,200 app switches a day, 20–40 minutes lost per task switch — is a quantified, board-level productivity and wellbeing problem that no single vendor is solving, because every vendor's incentive is to add another surface. Meanwhile the ingredients for the fix (server-driven JSON UI, generative UI, agent protocols, single-pane-of-glass thinking) have all matured independently but never been assembled into one universal canvas. ui121 is that assembly point: the company that turns "which app do I use for this?" into "it's all one UI." The domains stake a category-defining claim — own the words "one UI" and you own the funnel for the entire unification trend.
+Enterprise software has spent a decade optimising _backend_ integration while the _human_ interface kept multiplying: 118+ apps per company and rising, AI adoption adding another wave of silos on top. The "toggle tax" — ~1,200 app switches a day, 20–40 minutes lost per task switch — is a quantified, board-level productivity and wellbeing problem that no single vendor is solving, because every vendor's incentive is to add another surface. Meanwhile the ingredients for the fix (server-driven JSON UI, generative UI, agent protocols, single-pane-of-glass thinking) have all matured independently but never been assembled into one universal canvas. ui121 is that assembly point: the company that turns "which app do I use for this?" into "it's all one UI." The domains stake a category-defining claim — own the words "one UI" and you own the funnel for the entire unification trend.
 
 ---
 
-*Research date: September 2026. All claims sourced in [SOURCES.md](SOURCES.md).*
+_Research date: September 2026. All claims sourced in [SOURCES.md](SOURCES.md)._

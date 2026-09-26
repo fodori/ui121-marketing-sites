@@ -5,6 +5,7 @@ Collected: September 2026. All quotes are verbatim from each vendor's own site (
 ---
 
 ## 1. GitHub (Copilot code review)
+
 - **Website:** github.com
 - **Source:** https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review
 
@@ -16,11 +17,12 @@ Collected: September 2026. All quotes are verbatim from each vendor's own site (
 
 > "You can customize Copilot code review by adding custom instructions to your repository. … This is a good place to describe organization-wide expectations, such as coding standards, review criteria, or general practices that Copilot should consider in every review."
 
-*Note: Positions review as an AI "reviewer" inside the native PR flow — no human layer at all; the default review "do[es] not count toward required approvals," conceding AI review is advisory, not verdict-grade.*
+_Note: Positions review as an AI "reviewer" inside the native PR flow — no human layer at all; the default review "do[es] not count toward required approvals," conceding AI review is advisory, not verdict-grade._
 
 ---
 
 ## 2. GitLab
+
 - **Website:** about.gitlab.com
 - **Sources:** https://about.gitlab.com/why-gitlab/ · https://about.gitlab.com/features/code-review/
 
@@ -32,11 +34,12 @@ Collected: September 2026. All quotes are verbatim from each vendor's own site (
 
 > "Privacy-first AI, with the right model for the right use case … our approach is straightforward: your code remains your code, unused for training or fine tuning of our own models."
 
-*Note: Sells review as part of one DevSecOps platform — human approval rules are the governance spine; AI (Duo) is positioned as an agent working alongside engineers, privacy-first.*
+_Note: Sells review as part of one DevSecOps platform — human approval rules are the governance spine; AI (Duo) is positioned as an agent working alongside engineers, privacy-first._
 
 ---
 
 ## 3. CodeRabbit
+
 - **Website:** coderabbit.ai
 - **Source:** https://coderabbit.ai/
 
@@ -48,11 +51,12 @@ Collected: September 2026. All quotes are verbatim from each vendor's own site (
 
 > "Raise the quality bar. Lower the review burden." (case-study metric framing: "70% suggestion acceptance … 30% time savings across 50 pull requests per day.")
 
-*Note: Pure-AI reviewer whose voice is about scale and learning ("The future isn't writing code. It's reviewing it.") — sells itself as the missing reviewer capacity AI-driven development demands; no human-expert tier.*
+_Note: Pure-AI reviewer whose voice is about scale and learning ("The future isn't writing code. It's reviewing it.") — sells itself as the missing reviewer capacity AI-driven development demands; no human-expert tier._
 
 ---
 
 ## 4. Graphite
+
 - **Website:** graphite.dev
 - **Sources:** https://graphite.dev/ · https://graphite.dev/features/ai-reviews
 
@@ -64,11 +68,12 @@ Collected: September 2026. All quotes are verbatim from each vendor's own site (
 
 > "Teams that use Graphite Chat catch more critical issues with fewer false positives than competing solutions, from benchmark tests. — Less than 5% negative comment rate."
 
-*Note: Competes on signal quality ("flagging only real issues") and speed ("Get feedback on every PR in seconds, not hours") — noise/false-positive reduction is the core quality claim.*
+_Note: Competes on signal quality ("flagging only real issues") and speed ("Get feedback on every PR in seconds, not hours") — noise/false-positive reduction is the core quality claim._
 
 ---
 
 ## 5. PullRequest (now HackerOne Code)
+
 - **Website:** pullrequest.com
 - **Source:** https://www.pullrequest.com/
 
@@ -80,11 +85,12 @@ Collected: September 2026. All quotes are verbatim from each vendor's own site (
 
 > "Each code review provides developers with practical security knowledge from experts who have real-world experience … This ongoing feedback fosters a multiplicative effect, progressively enhancing your team's security awareness and coding practices without the need for formal training programs."
 
-*Note: The true review-as-a-service archetype — AI triage feeding US/UK/Commonwealth expert human reviewers; HiTL validation is the entire quality thesis ("virtually eliminates false positives"). Closest philosophical neighbor to ui121's AI + human model.*
+_Note: The true review-as-a-service archetype — AI triage feeding US/UK/Commonwealth expert human reviewers; HiTL validation is the entire quality thesis ("virtually eliminates false positives"). Closest philosophical neighbor to ui121's AI + human model._
 
 ---
 
 ## 6. Sonar
+
 - **Website:** sonarsource.com
 - **Source:** https://www.sonarsource.com/products/sonarqube/
 
@@ -96,11 +102,12 @@ Collected: September 2026. All quotes are verbatim from each vendor's own site (
 
 > "Automatically generate code fix suggestions with a click, minimizing manual debugging." (AI CodeFix)
 
-*Note: Verification-not-conversation positioning — deterministic static analysis and Quality Gates as the "trust layer" for AI-generated code; quality is defined by rules and gates, not reviewers.*
+_Note: Verification-not-conversation positioning — deterministic static analysis and Quality Gates as the "trust layer" for AI-generated code; quality is defined by rules and gates, not reviewers._
 
 ---
 
 ## 7. LinearB
+
 - **Website:** linearb.dev
 - **Status: BLOCKED** — linearb.dev refused all access attempts from this environment (direct HTTP connection refused; scraper engines failed). No verbatim quotes could be captured. Do NOT quote LinearB from secondary sources without verification.
 - **Note (from public knowledge, unverified):** LinearB is known for engineering-operations tooling (delivery metrics, PR triage automation, gitStream workflow automation); its voice centers on developer productivity and automating the review pipeline rather than performing the review itself. Verify at linearb.dev when access is available.
@@ -108,6 +115,7 @@ Collected: September 2026. All quotes are verbatim from each vendor's own site (
 ---
 
 ## 8. SmartBear / Collaborator
+
 - **Website:** smartbear.com
 - **Source:** https://smartbear.com/product/collaborator/
 
@@ -119,11 +127,12 @@ Collected: September 2026. All quotes are verbatim from each vendor's own site (
 
 > "Collaborator can serve as a peer review quality gate, ensuring that files have been reviewed and modified before they are delivered."
 
-*Note: Classic human peer-review tool aimed at regulated industries (DO-178C, PCI, medical) — the voice is compliance, audit trails, and defect-catching statistics; zero AI framing.*
+_Note: Classic human peer-review tool aimed at regulated industries (DO-178C, PCI, medical) — the voice is compliance, audit trails, and defect-catching statistics; zero AI framing._
 
 ---
 
 ## 9. Atlassian (Bitbucket + Rovo AI code review)
+
 - **Website:** atlassian.com
 - **Source:** https://www.atlassian.com/software/bitbucket/features
 
@@ -135,11 +144,12 @@ Collected: September 2026. All quotes are verbatim from each vendor's own site (
 
 > "Be confident in your software delivery by enforcing coding standards, CI/CD policies, and change management workflows across all teams and repositories."
 
-*Note: Frames AI review as relief for review overload inside a platform play — the value proposition is cycle-time and merge speed, with governance/merge checks handling quality enforcement.*
+_Note: Frames AI review as relief for review overload inside a platform play — the value proposition is cycle-time and merge speed, with governance/merge checks handling quality enforcement._
 
 ---
 
 ## Cross-cutting observations for ui121
+
 - **Nobody else sells "AI + human expert" code review head-on** except PullRequest/HackerOne Code — and they do it on a security-risk frame ("Reduce software risk"), not a general code-quality frame. This is the most defensible lane for ui121's AI + HITL angle.
 - **The noise problem is a shared enemy:** Graphite (<5% negative comment rate), PullRequest ("virtually eliminates false positives"), CodeRabbit ("high signal") all build claims around suppressing AI false positives — human validation is the strongest mechanism to claim that.
 - **Speed language:** Copilot "less than 30 seconds," Graphite "seconds, not hours" — velocity is table stakes; the quality tier above it (expert-verified) is open space.

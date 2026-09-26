@@ -1,13 +1,14 @@
 # helpexpert.me + newhuman.store — Concept Research
+
 **Angle: Real-time "Rent a Human" — a network where AI agents, servers, and clients ask skilled humans questions and get help in real time. Human-on-demand, with a sophisticated structured UI around the human ask/answer loop.**
 
-Researched: 2026-09-22. Note: both target domains (`helpexpert.me`, `newhuman.store`) currently show Squarespace "Coming Soon" parking pages — they are undeveloped name/concept plays, not live products. This document researches the *concept* and the surrounding market.
+Researched: 2026-09-22. Note: both target domains (`helpexpert.me`, `newhuman.store`) currently show Squarespace "Coming Soon" parking pages — they are undeveloped name/concept plays, not live products. This document researches the _concept_ and the surrounding market.
 
 ---
 
 ## 1. Main goal
 
-Create a **real-time human knowledge network**: a place where an AI agent, a server, a script, or a person can ask a skilled human a question and get an answer in minutes — text answers, judgment calls, verification, eyes-on-the-ground, expert opinions — via a clean, structured ask/answer UI (task spec, offer, accept, answer, proof, payment). In effect: **the "meatspace knowledge layer" for AI agents and humans alike** — not just hiring hands for physical tasks, but renting *judgment, expertise, and local knowledge* on demand, machine-to-human and human-to-human.
+Create a **real-time human knowledge network**: a place where an AI agent, a server, a script, or a person can ask a skilled human a question and get an answer in minutes — text answers, judgment calls, verification, eyes-on-the-ground, expert opinions — via a clean, structured ask/answer UI (task spec, offer, accept, answer, proof, payment). In effect: **the "meatspace knowledge layer" for AI agents and humans alike** — not just hiring hands for physical tasks, but renting _judgment, expertise, and local knowledge_ on demand, machine-to-human and human-to-human.
 
 ## 2. The problem today
 
@@ -15,7 +16,7 @@ Create a **real-time human knowledge network**: a place where an AI agent, a ser
 - **Human-in-the-loop at scale is enterprise-only.** Scale AI, Surge AI, and Prolific provide human feedback, evals, and labeling for frontier model builders — but as bulk, contractual, enterprise pipelines with weeks of onboarding. They are not "ask a question now, pay $5, get an answer in 3 minutes."
 - **Expert networks are human-speed and human-priced.** Clarity.fm, Intro.co, JustAnswer (Pearl.com), GLG-style expert networks connect humans to experts by phone/consult — $200–$500 per session, no API, no machine clients, no real-time structured answer objects.
 - **Skill marketplaces are agent-hostile.** Fiverr, Upwork, TaskRabbit explicitly block scraping and have no agent APIs; RentAHuman's own blog makes this a selling point ("scraping job boards is fragile and against ToS").
-- **No structured UI for the human ask/answer.** Even RentAHuman's UI is bounty-listing oriented. Nothing today offers a *question-first* experience: type/paste a question, get routed to a ranked pool of available humans, chat in real time, receive a structured answer (text, photo, verification, sources) with escrow settlement.
+- **No structured UI for the human ask/answer.** Even RentAHuman's UI is bounty-listing oriented. Nothing today offers a _question-first_ experience: type/paste a question, get routed to a ranked pool of available humans, chat in real time, receive a structured answer (text, photo, verification, sources) with escrow settlement.
 
 ## 3. How it helps
 
@@ -26,7 +27,7 @@ Create a **real-time human knowledge network**: a place where an AI agent, a ser
 
 ## 4. What's cutting-edge
 
-- **AI-agents-hire-humans as a category is brand new (2025–2026)** and already Y Combinator-backed (RentAHuman), press-covered (WIRED, Forbes, Nature badges on its site), with an npm MCP package and autonomous x402 signup — but focused on *physical* tasks.
+- **AI-agents-hire-humans as a category is brand new (2025–2026)** and already Y Combinator-backed (RentAHuman), press-covered (WIRED, Forbes, Nature badges on its site), with an npm MCP package and autonomous x402 signup — but focused on _physical_ tasks.
 - **Agentic payments (x402 on USDC/Base)** make per-question micro-settlement between autonomous software and humans technically trivial for the first time.
 - **MCP as the universal socket**: any MCP-compatible client (Claude, Cursor, custom agents) can plug into a human network with one config block — distribution that gig marketplaces never had.
 - **Human-in-the-loop as a product surface** rather than an enterprise data pipeline: UIs designed around the ask/answer conversation, availability, verification badges, and structured answer objects.
@@ -44,10 +45,10 @@ Competitors (RentAHuman included) ship chat-first, bounty-list UIs; a sophistica
 
 ## 6. Why brilliant
 
-- **Timing**: the AI-to-human labor market just proved demand (750k+ humans, $2.1M+ paid, YC backing) but only for physical errands — the *knowledge/help* slice of the same wave is open.
+- **Timing**: the AI-to-human labor market just proved demand (750k+ humans, $2.1M+ paid, YC backing) but only for physical errands — the _knowledge/help_ slice of the same wave is open.
 - **Both clients at once**: humans ask humans (Clarity/JustAnswer demand, modernized real-time), and machines ask humans (a brand-new, exploding demand curve with no dominant player for Q&A-style help).
 - **Structural moat via UX + protocol**: MCP/x402 rails are commoditized; the moat is the structured transaction model and the trust/verification UI around human answers — exactly ui121's strength.
 - **Small-ticket economics work**: per-question micro-payments (x402) beat $300 consulting calls for the agent economy, where agents need thousands of cheap judgments, not one expensive meeting.
 - **The domain names are already parked** — cheap to acquire, and the concept has a named, validated competitor to learn from and differentiate against (real-time knowledge vs. physical tasks).
 
-**Key caveat / differentiation**: RentAHuman.ai is real, live, YC-backed, and owns the "hire a human" brand. helpexpert.me/newhuman.store must position as *real-time human intelligence-on-demand (Q&A, judgment, expertise)* — not physical-task bounty posting — and must out-UI it.
+**Key caveat / differentiation**: RentAHuman.ai is real, live, YC-backed, and owns the "hire a human" brand. helpexpert.me/newhuman.store must position as _real-time human intelligence-on-demand (Q&A, judgment, expertise)_ — not physical-task bounty posting — and must out-UI it.

@@ -1,6 +1,6 @@
 ---
 name: Marketing sites monorepo
-overview: "Stand up a Yarn + Astro + React + Tailwind monorepo in ui121-marketing-sites: shared SEO/analytics/a11y/build machinery, independent static sites per domain, and two fully written landings (human-in-the-loop.uk and ui121.com) with distinct modern layouts. Remaining domains get config + scaffold only. Plan docs live in the project."
+overview: 'Stand up a Yarn + Astro + React + Tailwind monorepo in ui121-marketing-sites: shared SEO/analytics/a11y/build machinery, independent static sites per domain, and two fully written landings (human-in-the-loop.uk and ui121.com) with distinct modern layouts. Remaining domains get config + scaffold only. Plan docs live in the project.'
 todos:
   - id: write-docs
     content: Write plan + market + per-domain briefs into ui121-marketing-sites/docs
@@ -9,13 +9,13 @@ todos:
     content: Yarn workspaces, shared packages (analytics, seo, a11y, content-schema, lead-form), root scripts
     status: completed
   - id: layout-families
-    content: "Four independent layout shells: A HITL, B company, C protocol, D morph"
+    content: 'Four independent layout shells: A HITL, B company, C protocol, D morph'
     status: completed
   - id: hitl-full
-    content: "Full human-in-the-loop.uk: config, rich content, 8 use cases, motion/imagery, lead form island"
+    content: 'Full human-in-the-loop.uk: config, rich content, 8 use cases, motion/imagery, lead form island'
     status: completed
   - id: company-full
-    content: "Full ui121.com: company/product story, 8 use cases, distinct layout B"
+    content: 'Full ui121.com: company/product story, 8 use cases, distinct layout B'
     status: completed
   - id: scaffold-rest
     content: Scaffold remaining domains with site.config.ts, stub page, docs brief; Layout C/D on askmeapi + generatedui.app
@@ -48,13 +48,13 @@ Write this plan into the repo as [`docs/`](file:///Users/istvanfodor/Documents/g
 
 Typical alternatives today:
 
-| Need | Typical tools | Gap |
-| --- | --- | --- |
-| Human approval in workflows | Temporal signals, Camunda user tasks, Slack/email | Orchestrators pause; **you still build the human UI** |
-| Agent handoff | Chat, HumanRail, HITL.store, Sanctify | Marketplace/chat; weak **controlled, reusable UI channel** |
-| Forms | Typeform, Tally, Fillout, Retool JSON Schema Form | Hosted forms or internal apps; not a **live inbox for machines** |
-| Generated UI | v0, CopilotKit, MCP Apps generative UI | Free-form React/HTML; **unsafe for production humans** |
-| MCP | Typeform MCP, custom servers | Form CRUD or tools; not **send UI → human → structured result** |
+| Need                        | Typical tools                                     | Gap                                                              |
+| --------------------------- | ------------------------------------------------- | ---------------------------------------------------------------- |
+| Human approval in workflows | Temporal signals, Camunda user tasks, Slack/email | Orchestrators pause; **you still build the human UI**            |
+| Agent handoff               | Chat, HumanRail, HITL.store, Sanctify             | Marketplace/chat; weak **controlled, reusable UI channel**       |
+| Forms                       | Typeform, Tally, Fillout, Retool JSON Schema Form | Hosted forms or internal apps; not a **live inbox for machines** |
+| Generated UI                | v0, CopilotKit, MCP Apps generative UI            | Free-form React/HTML; **unsafe for production humans**           |
+| MCP                         | Typeform MCP, custom servers                      | Form CRUD or tools; not **send UI → human → structured result**  |
 
 **Our wedge vs chatbots:** structured UI, not a conversation dump. **Vs BPM:** the missing human surface, not another orchestrator. **Vs generated UI:** catalog + validation, not unbounded HTML. **Vs RentAHuman:** we are the interface layer (and later a real-time marketplace), not a gig board.
 
@@ -97,12 +97,12 @@ scripts/dev.mjs                # yarn site:dev <domain>
 
 Each family is a **different visual system**, not a skin. Compare in the browser.
 
-| ID | Used on | Feel (2026, not generic SaaS) |
-| --- | --- | --- |
-| A Editorial | **human-in-the-loop.uk** (full) | Dark, oversized type, full-bleed scenes, scroll theatre of a live handoff |
-| B Flagship | **ui121.com** (full) | Light/precision, product frames, company + product, still cinematic |
-| C Protocol | shell on **askmeapi.com** | Request/response stage, monospace accents, API-as-theatre (placeholder copy) |
-| D Morph | shell on **generatedui.app** | UI that reassembles; JSON-to-surface motion (placeholder copy) |
+| ID          | Used on                         | Feel (2026, not generic SaaS)                                                |
+| ----------- | ------------------------------- | ---------------------------------------------------------------------------- |
+| A Editorial | **human-in-the-loop.uk** (full) | Dark, oversized type, full-bleed scenes, scroll theatre of a live handoff    |
+| B Flagship  | **ui121.com** (full)            | Light/precision, product frames, company + product, still cinematic          |
+| C Protocol  | shell on **askmeapi.com**       | Request/response stage, monospace accents, API-as-theatre (placeholder copy) |
+| D Morph     | shell on **generatedui.app**    | UI that reassembles; JSON-to-surface motion (placeholder copy)               |
 
 Remaining domains clone the nearest family folder as a starting point, then diverge. No shared “Header.tsx”.
 
@@ -153,19 +153,19 @@ Company: **UI121 Ltd**. Product name allowed. App: `app.ui121.com`. Same problem
 
 ## Remaining domains (scaffold + brief only)
 
-| Domain | Angle |
-| --- | --- |
-| 1ui.uk, only1ui.com, onlyoneui.com | One surface: pages/forms/charts as tasks; apps collapse toward one UI |
-| ai2ui.uk | Gateway between AI and humans |
-| askmeapi.com | API-first: a server/agent asks a human or group (**Layout C shell**) |
-| generatedui.app, generativeui.uk | Data-driven UI + MCP; pre-built blocks, not free-form HTML (**Layout D shell**) |
-| jsonapp.com | Build apps as JSON UI |
-| pulsarform.com | Form builder that is also a live machine inbox |
-| ui-mcp.com | Connect any AI via MCP |
-| ui1to1.com | Alias of company story (redirect or twin later; scaffold) |
-| uiaas.uk, uias.uk | UI as a service |
-| codereview.uk | Task = review code in an IDE-like surface |
-| helpexpert.me, newhuman.store | Real-time “rent a human”; later; not this build |
+| Domain                             | Angle                                                                           |
+| ---------------------------------- | ------------------------------------------------------------------------------- |
+| 1ui.uk, only1ui.com, onlyoneui.com | One surface: pages/forms/charts as tasks; apps collapse toward one UI           |
+| ai2ui.uk                           | Gateway between AI and humans                                                   |
+| askmeapi.com                       | API-first: a server/agent asks a human or group (**Layout C shell**)            |
+| generatedui.app, generativeui.uk   | Data-driven UI + MCP; pre-built blocks, not free-form HTML (**Layout D shell**) |
+| jsonapp.com                        | Build apps as JSON UI                                                           |
+| pulsarform.com                     | Form builder that is also a live machine inbox                                  |
+| ui-mcp.com                         | Connect any AI via MCP                                                          |
+| ui1to1.com                         | Alias of company story (redirect or twin later; scaffold)                       |
+| uiaas.uk, uias.uk                  | UI as a service                                                                 |
+| codereview.uk                      | Task = review code in an IDE-like surface                                       |
+| helpexpert.me, newhuman.store      | Real-time “rent a human”; later; not this build                                 |
 
 ## Stack
 

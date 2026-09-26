@@ -21,6 +21,7 @@ import site from '../../site.config'
         client:visible
         siteId={site.leadForm.siteId ?? site.domain}
         collection={site.leadForm.collection}
+        supportApiUrl={import.meta.env.PUBLIC_SUPPORT_API_URL || 'https://app.ui121.com/api/v1/support-messages'}
         submitLabel="Send message"
         successMessage="Thanks — the UI121 team will follow up."
         className="company-lead-form"
@@ -42,11 +43,15 @@ import site from '../../site.config'
     font-size: 0.875rem;
     color: #0c1222;
   }
-  :global(.company-lead-form input) {
+  :global(.company-lead-form input),
+  :global(.company-lead-form textarea) {
     border-radius: 0.75rem;
     border: 1px solid #e2e8f0;
     background: #f7f5f0;
     padding: 0.75rem 1rem;
+  }
+  :global(.company-lead-form textarea) {
+    min-height: 8rem;
   }
   :global(.company-lead-form button) {
     margin-top: 0.35rem;
